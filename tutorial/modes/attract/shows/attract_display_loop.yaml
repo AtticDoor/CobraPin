@@ -1,28 +1,5 @@
 #show_version=5
 
-#- duration: 3s
- # slides:
-  #  my_slide:
-   #   - type: video
-    #    video: my_video
-     #   control_events:
-      #    - event: play_my_vid
-       #     action: play
-        #  - event: wizard_caught
-#            action: stop
- #         - event: some_event
-  #          action: pause
-   #       - event: what_event
-    #        action: seek
-     #       value: .5
-      #    - event: move_it
-       #     action: position
-        #    value: 4.2
-         # - event: mute_me
-          #  action: volume
-           # value: 0
-
-
 - duration: 3s
   slides:
     awesome_slide:

@@ -1,0 +1,59 @@
+#config_version=5
+##! mode: top_lanes
+mode:
+  start_events: ball_started 
+  priority: 600
+  stop_events: stop_mode_top_lanes, ball_will_end
+
+shots:
+  top_lane_i:
+    switch: s_target1
+    profile: top_lane_profile
+    show_tokens:
+      led: 0_led4
+      color: blue
+  top_lane_n:
+    switch: s_target2
+    profile: top_lane_profile
+    show_tokens:
+      led: 0_led5
+      color: red
+  top_lane_d:
+    switch: s_target3
+    profile: top_lane_profile    
+    show_tokens:
+      led: 0_led6
+      color: orange
+
+
+shot_groups:
+  top_lane_group:
+    shots: top_lane_i, top_lane_n, top_lane_d
+    reset_events: top_lane_group_hit_complete
+    rotate_left_events: s_left_flipper_active
+    rotate_right_events: s_right_flipper_active
+
+shot_profiles:
+  top_lane_profile:
+    states:
+      - name:
+        show: off
+      - name: hit
+        show: lighton
+
+variable_player:
+  top_lane_group_hit_complete:
+    score: 10033
+    bonus_multiplier: 1
+    
+    
+show_player:
+  top_lane_group_hit_complete:
+    light_blink:
+      action: play
+      loops: 4
+      speed: 10
+      priority: 701
+      show_tokens:
+        led: 0_led4,0_led5,0_led6          
+        color: yellow

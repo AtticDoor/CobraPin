@@ -1,0 +1,157 @@
+2022-04-06 12:18:08,781 : kivy : Factory: 186 symbols loaded
+2022-04-06 12:18:08,790 : kivy : Cache: register <kv.lang> with limit=None, timeout=None
+2022-04-06 12:18:08,988 : kivy : Cache: register <kv.image> with limit=None, timeout=60
+2022-04-06 12:18:08,988 : kivy : Cache: register <kv.atlas> with limit=None, timeout=None
+2022-04-06 12:18:09,157 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-04-06 12:18:09,158 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-04-06 12:18:09,161 : kivy : Cache: register <kv.texture> with limit=1000, timeout=60
+2022-04-06 12:18:09,162 : kivy : Cache: register <kv.shader> with limit=1000, timeout=3600
+2022-04-06 12:18:09,283 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-04-06 12:18:09,284 : kivy : Video: Provider: gstplayer
+2022-04-06 12:18:09,686 : kivy : Loading MPF-MC controller
+2022-04-06 12:18:09,694 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-04-06 12:18:09,695 : ConfigProcessor : Config file in cache changed: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config
+2022-04-06 12:18:09,696 : ConfigProcessor : Loading config from file c:\users\rhk\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-04-06 12:18:09,698 : YAML File Interface : Loading file: c:\users\rhk\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml
+2022-04-06 12:18:09,757 : ConfigProcessor : Loading config: c:\users\rhk\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml
+2022-04-06 12:18:09,758 : ConfigProcessor : Loading config from file C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config.
+2022-04-06 12:18:09,760 : YAML File Interface : Loading file: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config.yaml
+2022-04-06 12:18:09,821 : ConfigProcessor : Loading config: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config
+2022-04-06 12:18:09,822 : YAML File Interface : Loading file: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config_lights.yaml
+2022-04-06 12:18:09,892 : ConfigProcessor : Loading config: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config_lights.yaml
+2022-04-06 12:18:09,895 : YAML File Interface : Loading file: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config_sound.yaml
+2022-04-06 12:18:09,902 : ConfigProcessor : Loading config: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config_sound.yaml
+2022-04-06 12:18:09,905 : YAML File Interface : Loading file: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config_switches.yaml
+2022-04-06 12:18:09,919 : ConfigProcessor : Loading config: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config_switches.yaml
+2022-04-06 12:18:09,922 : YAML File Interface : Loading file: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\shots.yaml
+2022-04-06 12:18:09,924 : ConfigProcessor : Loading config: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\shots.yaml
+2022-04-06 12:18:09,928 : ConfigProcessor : Config file cache created: C:\Users\RHK\AppData\Local\Temp\b4a6b6de1b3306b04ff90090d2fbbd20.mpf_cache
+2022-04-06 12:18:09,929 : YamlMultifileConfigLoader : Loading mode attract from c:\users\rhk\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2022-04-06 12:18:09,929 : YamlMultifileConfigLoader : Loading mode attract from c:\users\rhk\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2022-04-06 12:18:09,930 : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\d5435991b5bafa59064f4e7e642de682.mpf_cache
+2022-04-06 12:18:09,931 : YamlMultifileConfigLoader : Loading mode game from c:\users\rhk\mpfenv\lib\site-packages\mpf\modes\game\config\game.yaml
+2022-04-06 12:18:09,932 : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\ecbb08413cf4d3f42ad27dee7af3f961.mpf_cache
+2022-04-06 12:18:09,933 : YamlMultifileConfigLoader : Loading mode base from c:\users\rhk\mpfenv\lib\site-packages\mpf\modes\base\config\base.yaml
+2022-04-06 12:18:09,936 : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\5cc3f0afefc24f06723438d1bcf82e73.mpf_cache
+2022-04-06 12:18:09,943 : YamlMultifileConfigLoader : Loading mode attract from c:\users\rhk\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2022-04-06 12:18:09,944 : YamlMultifileConfigLoader : Loading mode attract from c:\users\rhk\mpfenv\lib\site-packages\mpf\modes\attract\config\attract.yaml
+2022-04-06 12:18:09,944 : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\d5435991b5bafa59064f4e7e642de682.mpf_cache
+2022-04-06 12:18:09,948 : YamlMultifileConfigLoader : Loading mode top_lanes from c:\users\rhk\mpfenv\lib\site-packages\mpf\modes\top_lanes\config\top_lanes.yaml
+2022-04-06 12:18:09,948 : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\05a31d94112aff3a2945dd52763b041f.mpf_cache
+2022-04-06 12:18:09,949 : YamlMultifileConfigLoader : Loading mode targetmode from c:\users\rhk\mpfenv\lib\site-packages\mpf\modes\targetmode\config\targetmode.yaml
+2022-04-06 12:18:09,949 : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\4bb81c5e8595e09b5018fb773cce8e9f.mpf_cache
+2022-04-06 12:18:09,951 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2022-04-06 12:18:09,952 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2022-04-06 12:18:09,955 : mpfmc : Machine path: C:\Users\RHK\Desktop\Cobrapin\tutorial
+2022-04-06 12:18:09,955 : mpfmc : Starting clock at 60.0Hz
+2022-04-06 12:18:09,984 : kivy : Text: Provider: sdl2
+2022-04-06 12:18:10,053 : kivy : Window: Provider: sdl2
+2022-04-06 12:18:10,323 : kivy : GL: Using the "OpenGL" graphics system
+2022-04-06 12:18:10,324 : kivy : GL: GLEW initialization succeeded
+2022-04-06 12:18:10,326 : kivy : GL: available extensions: b'GL_3DFX_texture_compression_FXT1 GL_AMD_depth_clamp_separate GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_cl_event GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_robustness_isolation GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_separate_stencil GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_clip_volume_hint GL_EXT_compiled_vertex_array GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_object GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_polygon_offset_clamp GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shader_framebuffer_fetch GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_compression_s3tc GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod_bias GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_IBM_texture_mirrored_repeat GL_INTEL_conservative_rasterization GL_INTEL_fragment_shader_ordering GL_INTEL_framebuffer_CMAA GL_INTEL_map_texture GL_INTEL_multi_rate_fragment_shader GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_shader_subgroup GL_KHR_shader_subgroup_arithmetic GL_KHR_shader_subgroup_ballot GL_KHR_shader_subgroup_basic GL_KHR_shader_subgroup_clustered GL_KHR_shader_subgroup_quad GL_KHR_shader_subgroup_shuffle GL_KHR_shader_subgroup_shuffle_relative GL_KHR_shader_subgroup_vote GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_ldr GL_NV_blend_square GL_NV_conditional_render GL_NV_primitive_restart GL_NV_texgen_reflection GL_SGIS_generate_mipmap GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_SUN_multi_draw_arrays GL_WIN_swap_hint WGL_EXT_swap_control'
+2022-04-06 12:18:10,328 : kivy : GL: glShaderBinary is not available
+2022-04-06 12:18:10,328 : kivy : GL: Backend used <glew>
+2022-04-06 12:18:10,330 : kivy : GL: OpenGL version <b'4.6.0 - Build 27.20.100.8854'>
+2022-04-06 12:18:10,333 : kivy : GL: OpenGL vendor <b'Intel'>
+2022-04-06 12:18:10,335 : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics 630'>
+2022-04-06 12:18:10,335 : kivy : GL: OpenGL parsed version: 4, 6
+2022-04-06 12:18:10,336 : kivy : GL: Shading version <b'4.60 - Build 27.20.100.8854'>
+2022-04-06 12:18:10,336 : kivy : GL: Texture max size <16384>
+2022-04-06 12:18:10,337 : kivy : GL: Texture max units <32>
+2022-04-06 12:18:10,368 : kivy : Shader: Fragment compiled successfully
+2022-04-06 12:18:10,369 : kivy : Shader: Vertex compiled successfully
+2022-04-06 12:18:10,387 : kivy : ImageSDL2: Load <c:\users\rhk\mpfenv\lib\site-packages\kivy\data\glsl\default.png>
+2022-04-06 12:18:10,395 : kivy : Window: auto add sdl2 input provider
+2022-04-06 12:18:10,398 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2022-04-06 12:18:10,416 : mpfmc : Machine path: C:\Users\RHK\Desktop\Cobrapin\tutorial
+2022-04-06 12:18:10,417 : kivy : Resource: add <c:\users\rhk\mpfenv\lib\site-packages\mpfmc\fonts> in path list
+2022-04-06 12:18:10,417 : SoundSystem : Loading the Sound System
+2022-04-06 12:18:10,754 : AudioInterface : Initialized
+2022-04-06 12:18:10,755 : AudioInterface : Loaded SDL 2.0.12
+2022-04-06 12:18:10,757 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2022-04-06 12:18:10,760 : AudioInterface : Loaded GStreamer 1.18.0.0
+2022-04-06 12:18:10,762 : AudioInterface : Loaded GLib 2.62.6
+2022-04-06 12:18:10,763 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2022-04-06 12:18:10,763 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2022-04-06 12:18:10,766 : Track : Allocated track audio buffer (4096 bytes)
+2022-04-06 12:18:10,766 : Track.0.TrackStandard.music : Created Track 0 music with the following settings: simultaneous_sounds = 1, volume = 1.000000
+2022-04-06 12:18:10,766 : AudioInterface : The 'music' standard track has successfully been created.
+2022-04-06 12:18:10,766 : Track : Allocated track audio buffer (4096 bytes)
+2022-04-06 12:18:10,767 : Track.1.TrackStandard.voice : Created Track 1 voice with the following settings: simultaneous_sounds = 1, volume = 0.700000
+2022-04-06 12:18:10,767 : AudioInterface : The 'voice' standard track has successfully been created.
+2022-04-06 12:18:10,767 : Track : Allocated track audio buffer (4096 bytes)
+2022-04-06 12:18:10,767 : Track.2.TrackStandard.sfx : Created Track 2 sfx with the following settings: simultaneous_sounds = 8, volume = 1.000000
+2022-04-06 12:18:10,767 : AudioInterface : The 'sfx' standard track has successfully been created.
+2022-04-06 12:18:10,767 : SoundSystem : Setting master volume to 0.0
+2022-04-06 12:18:10,768 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2022-04-06 12:18:10,769 : AudioInterface : Enabling audio playback
+2022-04-06 12:18:10,773 : kivy : App: Loading kv <c:\users\rhk\mpfenv\lib\site-packages\mpfmc\core\mpfmc.kv>
+2022-04-06 12:18:10,773 : kivy : App: kv <c:\users\rhk\mpfenv\lib\site-packages\mpfmc\core\mpfmc.kv> not found
+2022-04-06 12:18:10,776 : kivy : Base: Create provider from mouse,multitouch_on_demand
+2022-04-06 12:18:10,776 : kivy : Base: Create provider from wm_touch
+2022-04-06 12:18:10,777 : kivy : Base: Create provider from wm_pen
+2022-04-06 12:18:10,777 : kivy : Base: Start application main loop
+2022-04-06 12:18:10,778 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2022-04-06 12:18:10,779 : EventManager : Event: ======'display_dmd_initialized'====== Args={}
+2022-04-06 12:18:10,811 : mpfmc : Display: Setting 'dmd' as default display
+2022-04-06 12:18:10,827 : EventManager : Event: ======'displays_initialized'====== Args={}
+2022-04-06 12:18:10,828 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2022-04-06 12:18:10,828 : EventManager : Event: ======'display_window_ready'====== Args={}
+2022-04-06 12:18:10,829 : EventManager : Event: ======'slide_dmd_blank_created'====== Args={}
+2022-04-06 12:18:10,831 : EventManager : Event: ======'display_dmd_ready'====== Args={}
+2022-04-06 12:18:10,850 : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-04-06 12:18:10,858 : EventManager : Event: ======'mc_ready'====== Args={}
+2022-04-06 12:18:10,858 : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-04-06 12:18:10,860 : ModeController : Found MPF Mode folders: {'attract': 'attract', 'bonus': 'bonus', 'carousel': 'carousel', 'credits': 'credits', 'game': 'game', 'high_score': 'high_score', 'match': 'match', 'service': 'service', 'tilt': 'tilt'}
+2022-04-06 12:18:10,860 : ModeController : Found Machine-specific Mode folders: {'attract': 'attract', 'base': 'base', 'mode2': 'mode2', 'skillshot': 'skillshot', 'targetmode': 'targetmode', 'top_lanes': 'top_lanes'}
+2022-04-06 12:18:10,863 : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-04-06 12:18:10,865 : kivy : Base: Leaving application in progress...
+2022-04-06 12:18:10,867 : kivy : Exception while processing RegisteredHandler(callback=<bound method BaseAssetManager._create_assets of <mpfmc.core.assets.ThreadedAssetManager object at 0x0000019AB240F5F8>>, priority=1, kwargs={'force_assets_load': False}, key=UUID('0177797d-5a5f-4505-b831-d21cede06656'), condition=None, blocking_facility=None) for event init_phase_3. Sound song_01 does not have a valid track.
+Traceback (most recent call last):
+  File "c:\users\rhk\mpfenv\lib\site-packages\mpf\core\events.py", line 695, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "c:\users\rhk\mpfenv\lib\site-packages\mpf\core\assets.py", line 202, in _create_assets
+    self._create_assets_from_disk(config=self.machine.machine_config)
+  File "c:\users\rhk\mpfenv\lib\site-packages\mpf\core\assets.py", line 326, in _create_assets_from_disk
+    config=config[ac.disk_asset_section][asset])
+  File "c:\users\rhk\mpfenv\lib\site-packages\mpfmc\assets\sound.py", line 268, in __init__
+    raise AssertionError("Sound {} does not have a valid track.".format(name))
+AssertionError: Sound song_01 does not have a valid track.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\rhk\mpfenv\lib\site-packages\mpfmc\commands\mc.py", line 227, in __init__
+    thread_stopper=thread_stopper).run()
+  File "c:\users\rhk\mpfenv\lib\site-packages\kivy\app.py", line 950, in run
+    runTouchApp()
+  File "c:\users\rhk\mpfenv\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+    EventLoop.mainloop()
+  File "c:\users\rhk\mpfenv\lib\site-packages\kivy\base.py", line 347, in mainloop
+    self.idle()
+  File "c:\users\rhk\mpfenv\lib\site-packages\kivy\base.py", line 387, in idle
+    Clock.tick()
+  File "c:\users\rhk\mpfenv\lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "c:\users\rhk\mpfenv\lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy\_clock.pyx", line 616, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 645, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "c:\users\rhk\mpfenv\lib\site-packages\mpfmc\uix\display.py", line 211, in _displays_initialized
+    self.mc.displays_initialized()
+  File "c:\users\rhk\mpfenv\lib\site-packages\mpfmc\core\mc.py", line 349, in displays_initialized
+    self._init()
+  File "c:\users\rhk\mpfenv\lib\site-packages\mpfmc\core\mc.py", line 397, in _init
+    self.events.process_event_queue()
+  File "c:\users\rhk\mpfenv\lib\site-packages\mpf\core\events.py", line 782, in process_event_queue
+    **event[3])
+  File "c:\users\rhk\mpfenv\lib\site-packages\mpf\core\events.py", line 741, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "c:\users\rhk\mpfenv\lib\site-packages\mpf\core\events.py", line 697, in _run_handlers
+    raise Exception("Exception while processing {} for event {}. {}".format(handler, event, e)) from e
+Exception: Exception while processing RegisteredHandler(callback=<bound method BaseAssetManager._create_assets of <mpfmc.core.assets.ThreadedAssetManager object at 0x0000019AB240F5F8>>, priority=1, kwargs={'force_assets_load': False}, key=UUID('0177797d-5a5f-4505-b831-d21cede06656'), condition=None, blocking_facility=None) for event init_phase_3. Sound song_01 does not have a valid track.
+2022-04-06 12:18:10,873 : SoundAsset : Sound song_01 unloading
+2022-04-06 12:18:10,873 : kivy : Stopping child threads... (1 remaining)
+2022-04-06 12:18:11,780 : kivy : All child threads stopped.

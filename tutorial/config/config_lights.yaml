@@ -173,34 +173,34 @@ lights:
     
   0_led0:
     number: 0-0-0
-    tags: seq0
+    #tags: seq0
   0_led1:
     number: 0-0-1
-    tags: seq1
+    #tags: seq1
   0_led2:
     number: 0-0-2
-    tags: seq2
+    #tags: seq2
   0_led3:
     number: 0-0-3
-    tags: seq3
+    #tags: seq3
   0_led4:
     number: 0-0-4
-    tags: seq4
+    #tags: seq4
   0_led5:
     number: 0-0-5
-    tags: seq5
+    #tags: seq5
   0_led6:
     number: 0-0-6
-    tags: seq6
+    #tags: seq6
   0_led7:
     number: 0-0-7
-    tags: seq7
+    #tags: seq7
   0_led8:
     number: 0-0-8
-    tags: seq8
+    #tags: seq8
   0_led9:
     number: 0-0-9
-    tags: seq9
+    #tags: seq9
     
     
   0_led10:

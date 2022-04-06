@@ -39,3 +39,18 @@ shot_profiles:
         show: on
     loop: false
     block: true
+
+
+
+
+    
+        
+sound_player:
+  right_inlane_hit: 
+    song_07: 
+      action: play
+      loops: 5
+  left_inlane_hit: 
+    song_07: 
+      action: play
+      loops: 5

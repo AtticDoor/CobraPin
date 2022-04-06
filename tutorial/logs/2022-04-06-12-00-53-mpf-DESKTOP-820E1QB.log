@@ -1,0 +1,47 @@
+2022-04-06 12:00:53,460 : INFO : root : Loading config.
+2022-04-06 12:00:53,465 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-04-06 12:00:53,465 : INFO : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\dd677de24678db403d544679fb4e0bdf.mpf_cache
+2022-04-06 12:00:53,590 : INFO : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\d5435991b5bafa59064f4e7e642de682.mpf_cache
+2022-04-06 12:00:53,591 : INFO : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\ecbb08413cf4d3f42ad27dee7af3f961.mpf_cache
+2022-04-06 12:00:53,592 : INFO : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\5cc3f0afefc24f06723438d1bcf82e73.mpf_cache
+2022-04-06 12:00:53,593 : INFO : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\d5435991b5bafa59064f4e7e642de682.mpf_cache
+2022-04-06 12:00:53,593 : INFO : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\05a31d94112aff3a2945dd52763b041f.mpf_cache
+2022-04-06 12:00:53,594 : INFO : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\4bb81c5e8595e09b5018fb773cce8e9f.mpf_cache
+2022-04-06 12:00:53,595 : INFO : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\5f16085d29a68682a876c0acac1ae8f6.mpf_cache
+2022-04-06 12:00:53,595 : INFO : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\219938914db1abd9be532e38122bde15.mpf_cache
+2022-04-06 12:00:53,596 : INFO : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\43290973e9e5b71b4d93c5d878d16843.mpf_cache
+2022-04-06 12:00:53,597 : INFO : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\8bd4d6c50b8ccb0c5dd97f3926a72023.mpf_cache
+2022-04-06 12:00:53,597 : INFO : ConfigProcessor : Loading config from cache: C:\Users\RHK\AppData\Local\Temp\29cefda9e2cef8d36df6fdc965f95996.mpf_cache
+2022-04-06 12:00:53,599 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-04-06 12:00:53,599 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-04-06-12-00-53-mpf-DESKTOP-820E1QB.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-04-06 12:00:53,599 : INFO : Machine : MPF path: c:\users\rhk\mpfenv\lib\site-packages\mpf
+2022-04-06 12:00:53,599 : INFO : Machine : Machine path: C:\Users\RHK\Desktop\Cobrapin\tutorial
+2022-04-06 12:00:53,599 : INFO : Machine : Platform: win32
+2022-04-06 12:00:53,599 : INFO : Machine : Python executable location: c:\users\rhk\mpfenv\scripts\python.exe
+2022-04-06 12:00:53,599 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-04-06 12:00:53,601 : INFO : Machine : Initialise MPF.
+2022-04-06 12:00:53,947 : INFO : OPP : Connecting to COM3 at 115200bps
+2022-04-06 12:00:54,033 : INFO : OPP : Init of OPP board 0 done
+2022-04-06 12:00:54,033 : INFO : OPP : Connecting to COM6 at 115200bps
+2022-04-06 12:00:54,127 : INFO : OPP : Init of OPP board 1 done
+2022-04-06 12:00:54,128 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-04-06 12:00:54,189 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-04-06 12:00:54,190 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 33266, 'prev_value': None, 'change': True}
+2022-04-06 12:00:54,190 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-04-06 12:00:54,190 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-04-06 12:00:54,190 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2022-04-06 12:00:54,190 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.19041-SP0', 'prev_value': None, 'change': True}
+2022-04-06 12:00:54,191 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-04-06 12:00:54,191 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2022-04-06 12:00:54,191 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.19041', 'prev_value': None, 'change': True}
+2022-04-06 12:00:54,191 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-04-06 12:00:54,191 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-04-06 12:00:54,248 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-04-06 12:00:54,253 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2022-04-06 12:00:54,254 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2022-04-06 12:01:16,311 : INFO : Machine : Starting the main run loop.
+2022-04-06 12:01:16,312 : INFO : Machine : Shutting down...
+2022-04-06 12:01:16,312 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-04-06 12:01:16,316 : ERROR : OPP : Stop called on serial connection COM6
+2022-04-06 12:01:16,317 : ERROR : OPP : Stop called on serial connection COM3
+2022-04-06 12:01:16,318 : INFO : root : MPF run loop ended.

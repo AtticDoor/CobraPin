@@ -1,9 +1,5 @@
 #show_version=5
 
-
-
-
-
 - duration: 1
   lights:
     l_led1: red
@@ -44,7 +40,6 @@
 - duration: 1
   lights:
     seq9: (color1)
-
 
 - duration: 1
   lights:

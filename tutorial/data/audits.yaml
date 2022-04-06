@@ -3,36 +3,47 @@ events:
   game_started: 1
 player:
   score:
-    average: 12609.09090909091
+    average: 13320.947368421053
     top:
+    - 38899
+    - 33266
     - 27500
     - 23100
+    - 19800
+    - 13433
     - 12100
     - 9900
     - 8800
     - 7800
-    - 7700
-    - 7700
-    - 6600
-    - 4400
-    total: 11
+    total: 19
 shots:
-  my_first_shot: 344
+  my_first_shot: 1341
+  top_lane_d: 190
+  top_lane_i: 125
+  top_lane_n: 163
 switches:
   s_bottom_popper: 0
-  s_drain: 62
+  s_drain: 337
   s_eject: 0
   s_elevator_hold: 0
-  s_left_flipper: 165
-  s_left_inlane: 43
+  s_extraball: 29
+  s_lane1: 0
+  s_lane2: 0
+  s_lane3: 48
+  s_left_flipper: 487
+  s_left_inlane: 164
   s_left_jet: 0
-  s_left_slingshot: 0
-  s_plunger: 56
-  s_right_flipper: 30
-  s_right_inlane: 344
+  s_left_slingshot: 25
+  s_plunger: 467
+  s_right_flipper: 54
+  s_right_inlane: 1343
   s_right_jet: 0
-  s_right_slingshot: 0
-  s_start: 8
+  s_right_slingshot: 418
+  s_singleshot: 90
+  s_start: 21
+  s_target1: 159
+  s_target2: 222
+  s_target3: 242
   s_top_popper: 0
   s_top_slingshot: 0
   s_trough1: 0

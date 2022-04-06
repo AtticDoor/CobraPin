@@ -8,11 +8,20 @@ variable_player:
     score: 100
   my_first_shot_my_first_profile_flashing_hit:
     score: 1000
-  s_flipper_lower_left_active:
-    score: 1000
-    potato: 1
-  s_flipper_lower_right_active:
-    potato: -2
+    
+
+
+extra_balls:
+  score_one:
+    enabled: true
+    award_events: player_score{value>=10000}
+  score_two:
+    enabled: true
+    award_events: player_score{value>=210000}
+  score_three:
+    enabled: true
+    award_events: player_score{value>=300000}
+
 
 shot_profiles:
   my_first_profile:
@@ -27,33 +36,39 @@ shot_profiles:
 
 shots:
   my_first_shot:
-    switch: s_right_inlane  # pick a switch that's valid in your machine
+    switch: s_right_inlane  
     show_tokens:
-      led: l_led1 # pick an LED that's valid in your machine
+      led: l_led1 
     profile: my_first_profile
 
 slide_player:
+  mode_base_started: slide_ball_started
+ 
+        
+sound_player:
   mode_base_started:
-    widgets:
-      - type: text
-        text: (score)
-        number_grouping: true
-        min_digits: 2
-        font_size: 100
-      - type: text
-        text: PLAYER (number)
-        y: 10
-        x: 10
-        font_size: 50
-        anchor_x: left
-        anchor_y: bottom
-      - type: text
-        text: BALL (ball)
-        y: 10
-        x: right-10
-        anchor_x: right
-        anchor_y: bottom
-        font_size: 50
-      - type: text
-        text: 'POTATO VALUE: (potato)'
-        y: 40%
+    music_bg1:
+      loops: -1
+  s_right_inlane_active:
+    sfx_fail: 
+      loops: 0
+  s_left_inlane_active:
+    sfx_fail: 
+      loops: 0 
+  # s_plunger_released:
+    # waiting_to_plunge_loop: 
+      # action: stop
+      # #loops: 1 
+    # song_01:
+    # # # #base_background_music:
+      # loops: -1
+  balldevice_bd_plunger_lane_ball_eject_success:
+    waiting_to_plunge_loop:
+      loops: -1
+  sw_plunger:
+    sfx_fail:
+      loops: -1
+  mode_base_stopped:
+    song_01:
+      action: stop
+   

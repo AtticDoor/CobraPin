@@ -1,0 +1,24 @@
+--music
+sfx
+ball save
+
+extra ball 
+
+
+
+
+exit mode after time duration
+
+advance through 7 modes
+
+wizard mode
+
+match
+
+achievement accounting
+
+end of ball accounting
+
+DONE
+change mode
+--lane change

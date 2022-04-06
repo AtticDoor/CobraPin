@@ -1,0 +1,15 @@
+2022-04-06 12:33:28,529 : kivy : Factory: 186 symbols loaded
+2022-04-06 12:33:28,706 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-04-06 12:33:28,706 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-04-06 12:33:28,768 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-04-06 12:33:28,769 : kivy : Video: Provider: gstplayer
+2022-04-06 12:33:29,131 : kivy : Loading MPF-MC controller
+2022-04-06 12:33:29,143 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-04-06 12:33:29,143 : ConfigProcessor : Config file in cache changed: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config
+2022-04-06 12:33:29,151 : ConfigProcessor : Loading config from file c:\users\rhk\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-04-06 12:33:29,224 : ConfigProcessor : Loading config: c:\users\rhk\mpfenv\lib\site-packages\mpfmc\mcconfig.yaml
+2022-04-06 12:33:29,225 : ConfigProcessor : Loading config from file C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config.
+2022-04-06 12:33:29,284 : ConfigProcessor : Loading config: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config
+2022-04-06 12:33:29,349 : ConfigProcessor : Loading config: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config_lights.yaml
+2022-04-06 12:33:29,360 : ConfigProcessor : Loading config: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config_sound.yaml
+2022-04-06 12:33:29,371 : ConfigProcessor : Loading config: C:\Users\RHK\Desktop\Cobrapin\tutorial\config\config_switches.yaml
