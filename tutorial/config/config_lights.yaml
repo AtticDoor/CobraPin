@@ -1,0 +1,333 @@
+#config_version=5
+
+lights:
+  l_led0:
+    number: 1-0-0
+    tags: seq0
+  l_led1:
+    number: 1-0-1
+    tags: seq1
+  l_led2:
+    number: 1-0-2
+    tags: seq2
+  l_led3:
+    number: 1-0-3
+    tags: seq3
+  l_led4:
+    number: 1-0-4
+    tags: seq4
+  l_led5:
+    number: 1-0-5
+    tags: seq5
+  l_led6:
+    number: 1-0-6
+    tags: seq6
+  l_led7:
+    number: 1-0-7
+    tags: seq7
+  l_led8:
+    number: 1-0-8
+    tags: seq8
+  l_led9:
+    number: 1-0-9
+    tags: seq9
+    
+    
+  l_led10:
+    number: 1-0-10
+    tags: seq0
+  l_led11:
+    number: 1-0-11
+    tags: seq1
+  l_led12:
+    number: 1-0-12
+    tags: seq2
+  l_led13:
+    number: 1-0-13
+    tags: seq3
+  l_led14:
+    number: 1-0-14
+    tags: seq4
+  l_led15:
+    number: 1-0-15
+    tags: seq5
+  l_led16:
+    number: 1-0-16
+    tags: seq6
+  l_led17:
+    number: 1-0-17
+    tags: seq7
+  l_led18:
+    number: 1-0-18
+    tags: seq8
+  l_led19:
+    number: 1-0-19
+    tags: seq9
+
+
+
+  l_led20:
+    number: 1-0-20
+    tags: seq0
+  l_led21:
+    number: 1-0-21
+    tags: seq1
+  l_led22:
+    number: 1-0-22
+    tags: seq2
+  l_led23:
+    number: 1-0-23
+    tags: seq3
+  l_led24:
+    number: 1-0-24
+    tags: seq4
+  l_led25:
+    number: 1-0-25
+    tags: seq5
+  l_led26:
+    number: 1-0-26
+    tags: seq6
+  l_led27:
+    number: 1-0-27
+    tags: seq7
+  l_led28:
+    number: 1-0-28
+    tags: seq8
+  l_led29:
+    number: 1-0-29
+    tags: seq9    
+    
+
+  l_led30:
+    number: 1-0-30
+    tags: seq0
+  l_led31:
+    number: 1-0-31
+    tags: seq1
+  l_led32:
+    number: 1-0-32
+    tags: seq2
+  l_led33:
+    number: 1-0-33
+    tags: seq3
+  l_led34:
+    number: 1-0-34
+    tags: seq4
+  l_led35:
+    number: 1-0-35
+    tags: seq5
+  l_led36:
+    number: 1-0-36
+    tags: seq6
+  l_led37:
+    number: 1-0-37
+    tags: seq7
+  l_led38:
+    number: 1-0-38
+    tags: seq8
+  l_led39:
+    number: 1-0-39
+    tags: seq9       
+    
+    
+
+  l_led40:
+    number: 1-0-40
+    tags: seq0
+  l_led41:
+    number: 1-0-41
+    tags: seq1
+  l_led42:
+    number: 1-0-42
+    tags: seq2
+  l_led43:
+    number: 1-0-43
+    tags: seq3
+  l_led44:
+    number: 1-0-44
+    tags: seq4
+  l_led45:
+    number: 1-0-45
+    tags: seq5
+  l_led46:
+    number: 1-0-46
+    tags: seq6
+  l_led47:
+    number: 1-0-47
+    tags: seq7
+  l_led48:
+    number: 1-0-48
+    tags: seq8
+  l_led49:
+    number: 1-0-49
+    tags: seq9       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  0_led0:
+    number: 0-0-0
+    tags: seq0
+  0_led1:
+    number: 0-0-1
+    tags: seq1
+  0_led2:
+    number: 0-0-2
+    tags: seq2
+  0_led3:
+    number: 0-0-3
+    tags: seq3
+  0_led4:
+    number: 0-0-4
+    tags: seq4
+  0_led5:
+    number: 0-0-5
+    tags: seq5
+  0_led6:
+    number: 0-0-6
+    tags: seq6
+  0_led7:
+    number: 0-0-7
+    tags: seq7
+  0_led8:
+    number: 0-0-8
+    tags: seq8
+  0_led9:
+    number: 0-0-9
+    tags: seq9
+    
+    
+  0_led10:
+    number: 0-0-10
+    tags: seq0
+  0_led11:
+    number: 0-0-11
+    tags: seq1
+  0_led12:
+    number: 0-0-12
+    tags: seq2
+  0_led13:
+    number: 0-0-13
+    tags: seq3
+  0_led14:
+    number: 0-0-14
+    tags: seq4
+  0_led15:
+    number: 0-0-15
+    tags: seq5
+  0_led16:
+    number: 0-0-16
+    tags: seq6
+  0_led17:
+    number: 0-0-17
+    tags: seq7
+  0_led18:
+    number: 0-0-18
+    tags: seq8
+  0_led19:
+    number: 0-0-19
+    tags: seq9
+
+
+
+  0_led20:
+    number: 0-0-20
+    tags: seq0
+  0_led21:
+    number: 0-0-21
+    tags: seq1
+  0_led22:
+    number: 0-0-22
+    tags: seq2
+  0_led23:
+    number: 0-0-23
+    tags: seq3
+  0_led24:
+    number: 0-0-24
+    tags: seq4
+  0_led25:
+    number: 0-0-25
+    tags: seq5
+  0_led26:
+    number: 0-0-26
+    tags: seq6
+  0_led27:
+    number: 0-0-27
+    tags: seq7
+  0_led28:
+    number: 0-0-28
+    tags: seq8
+  0_led29:
+    number: 0-0-29
+    tags: seq9    
+   
+
+  0_led30:
+    number: 0-0-30
+    tags: seq0
+  0_led31:
+    number: 0-0-31
+    tags: seq1
+  0_led32:
+    number: 0-0-32
+    tags: seq2
+  0_led33:
+    number: 0-0-33
+    tags: seq3
+  0_led34:
+    number: 0-0-34
+    tags: seq4
+  0_led35:
+    number: 0-0-35
+    tags: seq5
+  0_led36:
+    number: 0-0-36
+    tags: seq6
+  0_led37:
+    number: 0-0-37
+    tags: seq7
+  0_led38:
+    number: 0-0-38
+    tags: seq8
+  0_led39:
+    number: 0-0-39
+    tags: seq9       
+    
+    
+
+  0_led40:
+    number: 0-0-40
+    tags: seq0
+  0_led41:
+    number: 0-0-41
+    tags: seq1
+  0_led42:
+    number: 0-0-42
+    tags: seq2
+  0_led43:
+    number: 0-0-43
+    tags: seq3
+  0_led44:
+    number: 0-0-44
+    tags: seq4
+  0_led45:
+    number: 0-0-45
+    tags: seq5
+  0_led46:
+    number: 0-0-46
+    tags: seq6
+  0_led47:
+    number: 0-0-47
+    tags: seq7
+  0_led48:
+    number: 0-0-48
+    tags: seq8
+  0_led49:
+    number: 0-0-49
+    tags: seq9       

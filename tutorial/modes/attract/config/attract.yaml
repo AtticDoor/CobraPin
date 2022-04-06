@@ -1,0 +1,16 @@
+#config_version=5
+
+show_player:
+  mode_attract_started:
+    attract_circular:
+      loops: -1
+      speed: 10
+      show_tokens:
+        led: seq0,seq1,seq2,seq3,seq4,seq5,seq6,seq7,seq8,seq9
+        color1: red
+        color2: blue
+        
+    attract_display_loop:
+      speed: 1
+    attract_light_show:
+      speed: 4

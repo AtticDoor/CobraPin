@@ -1,0 +1,78 @@
+#show_version=5
+
+
+
+
+
+- duration: 1
+  lights:
+    l_led1: red
+    l_led2: red
+    l_led3: ff0000
+    l_led4: red
+    l_led5: red
+    l_led6: ff0000
+    l_led49: ff00aa
+
+- duration: 1
+  lights:
+    seq0: (color1)
+- duration: 1
+  lights:
+    seq1: (color1)
+- duration: 1
+  lights:
+    seq2: (color1)
+- duration: 1
+  lights:
+    seq3: (color1)
+- duration: 1
+  lights:
+    seq4: (color1)
+- duration: 1
+  lights:
+    seq5: (color1)
+- duration: 1
+  lights:
+    seq6: (color1)
+- duration: 1
+  lights:
+    seq7: (color1)
+- duration: 1
+  lights:
+    seq8: (color1)
+- duration: 1
+  lights:
+    seq9: (color1)
+
+
+- duration: 1
+  lights:
+    seq0: (color2)
+- duration: 1
+  lights:
+    seq1: (color2)
+- duration: 1
+  lights:
+    seq2: (color2)
+- duration: 1
+  lights:
+    seq3: (color2)
+- duration: 1
+  lights:
+    seq4: (color2)
+- duration: 1
+  lights:
+    seq5: (color2)
+- duration: 1
+  lights:
+    seq6: (color2)
+- duration: 1
+  lights:
+    seq7: (color2)
+- duration: 1
+  lights:
+    seq8: (color2)
+- duration: 1
+  lights:
+    seq9: (color2)

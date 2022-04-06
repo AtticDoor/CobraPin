@@ -1,0 +1,224 @@
+#config_version=5
+
+hardware:
+  platform: opp
+  driverboards: gen2
+
+
+opp:
+  #Use the USB ports defined by your OS for the two STM32 boards
+  ports: COM3, COM6
+  #/dev/ttyACM0, /dev/ttyACM1
+  #USING SERIAL NUMBERS INSTEAD OF CHAINS
+  #  Board 0 has serial number 0, Board 1 has serial number 1.
+  #  This is convenient if your OS tends to reassign the serial port.
+  #  MPF will automatically address the correct board even if the ports
+  #     are swapped.
+
+  #For multiple CobraPin boards in a game, you will either have to give
+  #  the STM32 boards on the second CobraPin board new serial numbers
+  #  (10 and 11 are suggested for the 2nd board since 2 is used by the
+  #  CobraPin Xpansion Board)
+  #  <OR> Use the chains section to assign a port to a board number.
+  #  Mixing these up could cause blown FETs, coils, and fuses. Proceed
+  #  with caution. Test without coil power and use the yellow coil LEDs
+  #  for feedback.
+  #chains:
+  #  0: COM3
+  #  1: COM6
+
+psus:
+  default:
+    #Gives the capacitors extra time to recharge after firing a coil
+    #  and eases the load on the power supply. Doesn't affect autofire
+    #  devices like flippers, pops, slings.
+    release_wait_ms: 50
+    
+modes:
+  - base
+  - mode2
+  - attract
+
+
+config:
+  - config_lights.yaml
+  
+switches:
+
+  #DIRECT SWITCHES
+  #switch numbers are labelled in silkscreen on the board
+  #1-3, 8-11, 16-19, 24-27
+  s_left_flipper:
+    number: 0-0-17
+    tags: left_flipper
+  s_right_flipper:
+    number: 0-0-25
+    tags: right_flipper
+  s_start:
+    number: 0-0-18
+    tags: start
+  s_drain:
+    number: 0-0-26
+  
+
+  s_plunger:
+    number: 0-0-27
+  s_right_inlane:
+    number: 0-0-24
+    tags: playfield_active
+  s_left_inlane:
+    number: 0-0-19
+    tags: playfield_active
+  
+  s_eject:
+    number: 1-0-16
+  s_left_slingshot:
+    number: 1-0-18
+  s_right_slingshot:
+    number: 1-0-19
+  #MATRIX SWITCHES
+  #valid numbers are 1-0-32 through 1-0-95
+  #s_lowerDrop1:
+  # number: 1-0-32
+
+  # ...
+
+
+virtual_platform_start_active_switches:
+  - s_trough1
+  - s_trough2
+  - s_trough3
+
+keyboard:
+  z:
+    switch: s_left_flipper
+  'x':
+    switch: s_right_flipper
+  s:
+    switch: s_start
+  q:
+    switch: s_right_inlane
+  1:
+    switch: s_trough1
+    toggle: true
+  2:
+    switch: s_trough2
+    toggle: true
+  3:
+    switch: s_trough3
+    toggle: true
+  4:
+    switch: s_trough4
+    toggle: true
+  5:
+    switch: s_trough5
+    toggle: true
+  p:
+    switch: s_plunger
+    toggle: true
+  n:
+    event: mode2_start
+  m:
+    event: mode2_stop
+  l:
+    event: mode_attract_started
+coils:
+  c_flipper_left_main:
+    number: 0-0-10
+    default_pulse_ms: 20
+  c_flipper_left_hold:
+    number: 0-0-1
+    default_pulse_ms: 10
+    allow_enable: true
+    
+  c_flipper_right_main:
+    number: 0-0-3
+    default_pulse_ms: 10
+  c_flipper_right_hold:
+    number: 0-0-4
+    allow_enable: true
+  c_drain_eject:
+    number: 0-0-5
+    default_pulse_ms: 10
+ 
+  c_left_slingshot:
+    number: 1-0-1
+  c_right_slingshot:
+    number: 1-0-2
+    
+     
+ball_devices:
+  bd_drain:
+    ball_switches: s_drain
+    eject_coil: c_drain_eject
+    eject_targets: bd_plunger_lane
+    tags: drain, home, trough
+    eject_timeouts: 3s
+    debug: true
+
+  bd_plunger_lane:
+    ball_switches: s_plunger
+    mechanical_eject: true
+    eject_timeouts: 5s 
+    
+playfields:
+  playfield:
+    tags: default
+    default_source_device: bd_plunger_lane
+
+flippers:
+  left_flipper:
+    main_coil: c_flipper_left_main
+    hold_coil: c_flipper_left_hold
+    activation_switch: s_left_flipper
+  right_flipper:
+    main_coil: c_flipper_right_main
+    hold_coil: c_flipper_right_hold
+    activation_switch: s_right_flipper
+
+autofire_coils:
+  left_slingshot:
+    coil: c_left_slingshot
+    switch: s_left_slingshot
+  right_slingshot:
+    coil: c_right_slingshot
+    switch: s_right_slingshot
+
+
+
+displays:
+  window:
+    width: 800
+    height: 600
+
+slides:
+  welcome_slide:
+    widgets:
+      - type: text
+        text: PINBALL!
+        font_size: 50
+        color: red
+      - type: rectangle
+        width: 240
+        height: 60
+  yo_slide:
+    widgets:
+      - type: text
+        text: YO!
+        font_size: 50
+        color: red
+      - type: rectangle
+        width: 240
+        height: 60
+  attract_started:
+    widgets:
+      - text: ATTRACT MODE
+        type: text
+        
+slide_player:
+  init_done: welcome_slide
+  mode_attract_started: attract_started
+  ball_started:
+    widgets:
+      type: text
+      text: PLAYER (number) BALL (ball)
