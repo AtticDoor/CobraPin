@@ -202,19 +202,23 @@ lights:
     number: 0-0-9
     #tags: seq9
     
-    
-  0_led10:
+   
+  0_led_skillshot:   
+  #0_led10:
     number: 0-0-10
-    tags: seq0
-  0_led11:
+    #tags: seq0
+  0_led_lane1:    
+  #0_led11:
     number: 0-0-11
-    tags: seq1
-  0_led12:
+    #tags: seq1
+  0_led_lane2:   
+  #0_led12:
     number: 0-0-12
-    tags: seq2
-  0_led13:
+    #tags: seq2
+  0_led_lane3:    
+  #0_led13:
     number: 0-0-13
-    tags: seq3
+    #tags: seq3
   0_led14:
     number: 0-0-14
     tags: seq4

@@ -1,0 +1,70 @@
+#config_version=5
+# ##! mode: skillshot
+mode:
+  start_events: ball_starting
+  stop_events: end_skillshot, collect_managers_choice, skill_failed
+  priority: 700
+
+timers:
+  skillshot_timer:
+    start_value: 5
+    end_value: 0     
+    direction: down
+    tick_interval: 1s
+    start_running: false
+    control_events:
+      - action: start
+        event: balldevice_bd_plunger_lane_ball_eject_success  
+
+        
+event_player:
+  timer_skillshot_timer_complete:
+    - skill_failed
+    - end_skillshot
+
+  s_singleshot_active:
+    - skill_success
+    - end_skillshot #|3s
+
+variable_player:
+  skill_success:
+    score: 42 
+  timer_skillshot_timer_tick:
+    skillshot_timer_variable_times_100:
+      int: device.timers.skillshot_timer.ticks 
+      action: set
+      
+      
+slides:
+  show_timer:
+    widgets:
+      - type: Text
+        font_size: 100
+        text: (player|skillshot_timer_variable_times_100)
+        color: ff000044
+
+slide_player:
+  #mode_skillshot_started:
+  timer_skillshot_timer_started: show_timer
+
+
+show_player:
+  mode_skillshot_started:
+    light_blink:
+      action: play
+      loops: -1
+      speed: 10 
+      priority: 701
+      show_tokens:
+        led: 0_led_skillshot   
+        color: red 
+  skill_success:
+    light_blink:
+      action: play
+      loops: 5
+      speed: 20 
+      priority: 701
+      show_tokens:
+        led: 0_led_skillshot   
+        color: yellow 
+  

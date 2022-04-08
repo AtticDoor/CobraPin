@@ -8,7 +8,7 @@ variable_player:
     score: 100
   my_first_shot_my_first_profile_flashing_hit:
     score: 1000
-    
+   
 
 
 extra_balls:
@@ -55,20 +55,10 @@ sound_player:
   s_left_inlane_active:
     sfx_fail: 
       loops: 0 
-  # s_plunger_released:
-    # waiting_to_plunge_loop: 
-      # action: stop
-      # #loops: 1 
-    # song_01:
-    # # # #base_background_music:
-      # loops: -1
   balldevice_bd_plunger_lane_ball_eject_success:
     waiting_to_plunge_loop:
       loops: -1
   sw_plunger:
     sfx_fail:
       loops: -1
-  mode_base_stopped:
-    song_01:
-      action: stop
    

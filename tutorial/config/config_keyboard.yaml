@@ -1,0 +1,34 @@
+#config_version=5  
+keyboard:
+  z:
+    switch: s_left_flipper
+  'x':
+    switch: s_right_flipper
+  s:
+    switch: s_start
+  q:
+    switch: s_right_inlane
+  1:
+    switch: s_trough1
+    toggle: true
+  2:
+    switch: s_trough2
+    toggle: true
+  3:
+    switch: s_trough3
+    toggle: true
+  4:
+    switch: s_trough4
+    toggle: true
+  5:
+    switch: s_trough5
+    toggle: true
+  p:
+    switch: s_plunger
+    toggle: true
+  n:
+    event: mode2_start
+  m:
+    event: mode2_stop
+  l:
+    event: mode_attract_started

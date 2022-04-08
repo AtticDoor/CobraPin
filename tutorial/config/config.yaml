@@ -38,75 +38,17 @@ modes:
   - base
 #  - mode2
   - attract
-#  - skillshot
+  - skillshot
   - top_lanes
 #  - targetmode
-  
 
 
 config:
   - config_lights.yaml  
   - config_sound.yaml
   - config_switches.yaml
-  
-keyboard:
-  z:
-    switch: s_left_flipper
-  'x':
-    switch: s_right_flipper
-  s:
-    switch: s_start
-  q:
-    switch: s_right_inlane
-  1:
-    switch: s_trough1
-    toggle: true
-  2:
-    switch: s_trough2
-    toggle: true
-  3:
-    switch: s_trough3
-    toggle: true
-  4:
-    switch: s_trough4
-    toggle: true
-  5:
-    switch: s_trough5
-    toggle: true
-  p:
-    switch: s_plunger
-    toggle: true
-  n:
-    event: mode2_start
-  m:
-    event: mode2_stop
-  l:
-    event: mode_attract_started
-
-coils:
-  c_flipper_left_main:
-    number: 0-0-10
-    default_pulse_ms: 20
-  c_flipper_left_hold:
-    number: 0-0-1
-    default_pulse_ms: 10
-    allow_enable: true
-    
-  c_flipper_right_main:
-    number: 0-0-3
-    default_pulse_ms: 10
-  c_flipper_right_hold:
-    number: 0-0-4
-    allow_enable: true
-  c_drain_eject:
-    number: 0-0-5
-    default_pulse_ms: 30
- 
-  c_left_slingshot:
-    number: 1-0-2
-  c_right_slingshot:
-    number: 0-0-6
-    
+  - config_keyboard.yaml
+  - config_coils.yaml
      
 ball_devices:
   bd_drain:
@@ -123,7 +65,6 @@ ball_devices:
     eject_timeouts: 5s     
     player_controlled_eject_event: sw_plunger  
     
-    
 playfields:
   playfield:
     tags: default
@@ -139,16 +80,6 @@ flippers:
     hold_coil: c_flipper_right_hold
     activation_switch: s_right_flipper
 
-autofire_coils:
-  left_slingshot:
-    coil: c_left_slingshot
-    switch: s_left_slingshot
-  right_slingshot:
-    coil: c_right_slingshot
-    switch: s_right_slingshot
-
-
-
 displays:
   window:
     width: 800
@@ -157,6 +88,10 @@ displays:
     width: 800
     height: 600  
     default: true
+
+  my_frame:
+    width: 800
+    height: 600
 
 slides:
   window_slide:
@@ -260,9 +195,18 @@ slides:
         anchor_y: bottom
         font_size: 50
     priority: 100        
-        
-        
-        
+
+  slide_skillshot:
+    widgets:
+      - type: text
+        text: SKILL SHOT!
+        font_size: 100
+        color: blue
+      - type: rectangle
+        width: 500
+        height: 80       
+    priority: 600    
+    
 slide_player:
   init_done:
     window_slide:
@@ -271,36 +215,30 @@ slide_player:
       target: dmd  
   mode_attract_started: attract_started
   ball_save_default_saving_ball: 
-    
     default_saving_ball:   
       priority: 701 
       expire: 5s
-    
       transition:
         type: push
         duration: 2s
         direction: right
       transition_out:
         type: fade_back  
-
   extra_ball_score_one_awarded:
- 
     default_extra_ball:   
       priority: 701 
-      expire: 5s
-    
+      expire: 5s    
       transition:
         type: push
         duration: 2s
         direction: right
       transition_out:
-        type: fade_back  
-
-        
+        type: fade_back       
       
+
 ball_saves:
   default:
-    active_time: 10s
+    active_time: 5s
     hurry_up_time: 2s
     grace_period: 2s
     enable_events: ball_started #mode_base_started
@@ -313,6 +251,24 @@ ball_saves:
     
     
 show_player:
+  ball_save_default_timer_start:
+    lighton:
+      action: play
+      loops: 3
+      speed: 1
+      priority: 701
+      show_tokens:
+        led: 0_led7         
+        color: blue  
+  ball_save_default_hurry_up:
+    light_blink:
+      action: play
+      loops: 5
+      speed: 10
+      priority: 701
+      show_tokens:
+        led: 0_led7         
+        color: blue 
   ball_save_default_saving_ball:
     light_blink:
       action: play
@@ -322,6 +278,19 @@ show_player:
       show_tokens:
         led: 0_led7         
         color: blue
-
-
-  
+  skill_success:
+    lighton:
+      action: stop
+    light_blink:
+      action: play
+      loops: 5
+      speed: 20 
+      priority: 701
+      show_tokens:
+        led: 0_led_skillshot   
+        color: yellow 
+        
+sound_player:
+  mode_base_stopped:
+    music_bg1:
+      action: stop
