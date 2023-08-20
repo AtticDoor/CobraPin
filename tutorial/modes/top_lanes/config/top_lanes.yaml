@@ -7,19 +7,19 @@ mode:
 
 shots:
   top_lane_i:
-    switch: s_target1
+    switch: s_top_rollover_left
     profile: top_lane_profile
     show_tokens:
       led: 0_led4
       color: blue
   top_lane_n:
-    switch: s_target2
+    switch: s_top_rollover_mid
     profile: top_lane_profile
     show_tokens:
       led: 0_led5
       color: red
   top_lane_d:
-    switch: s_target3
+    switch: s_top_rollover_right
     profile: top_lane_profile    
     show_tokens:
       led: 0_led6
@@ -30,8 +30,8 @@ shot_groups:
   top_lane_group:
     shots: top_lane_i, top_lane_n, top_lane_d
     reset_events: top_lane_group_hit_complete
-    rotate_left_events: s_left_flipper_active
-    rotate_right_events: s_right_flipper_active
+    rotate_left_events: s_flipper_left_active
+    rotate_right_events: s_flipper_right_active
 
 shot_profiles:
   top_lane_profile:

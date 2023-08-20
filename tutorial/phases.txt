@@ -1,13 +1,5 @@
 --music
-sfx
-ball save
 
-extra ball 
-
-
-
-
-exit mode after time duration
 
 advance through 7 modes
 
@@ -22,3 +14,12 @@ end of ball accounting
 DONE
 change mode
 --lane change
+sfx
+ball save
+
+extra ball 
+
+
+
+
+exit mode after time duration

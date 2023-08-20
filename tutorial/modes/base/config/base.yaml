@@ -1,6 +1,6 @@
 #config_version=5
 mode:
-  start_events: ball_started
+  start_events: ball_started, ball_starting
   priority: 100
 
 variable_player:
@@ -8,8 +8,12 @@ variable_player:
     score: 100
   my_first_shot_my_first_profile_flashing_hit:
     score: 1000
-   
-
+  drop_target_bank_left_bank_down: 
+    score: 7
+  ramp_shot_hit:
+    bonus_ramps: 1
+  s_left_outlane_active:
+    some_variable: 1  
 
 extra_balls:
   score_one:
@@ -21,6 +25,9 @@ extra_balls:
   score_three:
     enabled: true
     award_events: player_score{value>=300000}
+
+
+  
 
 
 shot_profiles:
@@ -36,7 +43,7 @@ shot_profiles:
 
 shots:
   my_first_shot:
-    switch: s_right_inlane  
+    switch: s_2bank_top 
     show_tokens:
       led: l_led1 
     profile: my_first_profile
@@ -49,10 +56,10 @@ sound_player:
   mode_base_started:
     music_bg1:
       loops: -1
-  s_right_inlane_active:
+  s_left_outlane_active:
     sfx_fail: 
       loops: 0
-  s_left_inlane_active:
+  s_right_outlane_active:
     sfx_fail: 
       loops: 0 
   balldevice_bd_plunger_lane_ball_eject_success:

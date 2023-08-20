@@ -6,3 +6,8 @@ data/audits.yaml
 tutorial/data/audits.yaml
 tutorial/data/audits.yaml
 tutorial/data/audits.yaml
+baywatch_abandoned/
+mpf-phoenix-table-main/
+*.log
+tutorial/logs/2022-04-06-12-20-25-mc-DESKTOP-820E1QB.log
+Baywatch_Abandoned/config/config.yaml

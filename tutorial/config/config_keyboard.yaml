@@ -1,11 +1,29 @@
 #config_version=5  
 keyboard:
   z:
-    switch: s_left_flipper
-  'x':
-    switch: s_right_flipper
+    switch: s_flipper_left
+  x:
+    switch: s_flipper_right
+  c:
+    switch: s_shooter_lane
+   
+  g:
+    switch: s_pop_bottom  
+  h:
+    switch: s_5bank_middle 
+    
+  w:   
+    switch: s_right_slingshot 
+     
+  e:   
+    switch: s_shark_scoop
+
+  v:   
+    switch: s_ball_launch_button
+
+    
   s:
-    switch: s_start
+    switch: s_start_btn
   q:
     switch: s_right_inlane
   1:
@@ -27,8 +45,8 @@ keyboard:
     switch: s_plunger
     toggle: true
   n:
-    event: mode2_start
+    event: base_start
   m:
-    event: mode2_stop
+    event: base_stop
   l:
     event: mode_attract_started

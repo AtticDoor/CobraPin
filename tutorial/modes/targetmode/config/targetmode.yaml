@@ -1,0 +1,99 @@
+#config_version=5
+# mode2 config file
+
+mode:
+  start_events: targetmode_start
+  stop_events: targetmode_stop, ball_ended
+  priority: 200
+
+#config_version=5
+mode:
+  start_events: targetmode_start
+  stop_events: targetmode_end
+  game_mode: False
+
+event_player:
+    test_event_player_mode1:
+        - test_event_player_mode2
+        - test_event_player_mode3
+
+random_event_player:
+    test_random_event_player_mode1:
+      scope: machine
+      events:
+        - test_random_event_player_mode2
+        - test_random_event_player_mode3
+    test_random_event_player_weighted:
+      scope: machine
+      force_different: False
+      force_all: False
+      events:
+        out3: 1
+        out4: 1000
+
+# widgets:
+  # mode2_start_banner:
+    # type: text
+    # text: MODE 2 STARTED
+    # font_size: 50
+    # color: lime
+    # y: 80%
+    # expire: 1s
+
+# widget_player:
+  # mode_mode2_started: mode2_start_banner
+
+# variable_player:
+  # my_first_shot_mode2_flashing_hit:
+    # score: 10000
+  # my_first_shot_mode2_lit_hit:
+    # score: 100
+
+# shots:
+  # my_first_shot_mode2:
+    # switch: s_right_inlane
+    # profile: mode2
+
+# shot_profiles:
+  # mode2:
+    # states:
+      # - name: flashing
+        # show: flash
+        # speed: 5
+      # - name: lit
+        # show: on
+    # loop: false
+    # block: true
+
+
+
+# sounds:
+  # song_01:  
+    # file: base_background_music.ogg
+    # volume: 1.0
+    # priority: 100
+    # about_to_finish_time: 2s
+    # events_when_about_to_finish: song_01_about_to_finish
+ 
+  # song_07:  
+    # file: fail.ogg 
+    # #base_background_music.ogg
+    # volume: 2.0
+    # priority: 300
+    # #about_to_finish_time: 1s
+
+    # #events_when_about_to_finish: song_07_about_to_finish
+  
+# #left_slingshot_hit: 
+
+    
+        
+# sound_player:
+  # right_inlane_hit: 
+    # song_07: 
+      # action: play
+      # loops: 5
+  # left_inlane_hit: 
+    # song_07: 
+      # action: play
+      # loops: 5
