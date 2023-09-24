@@ -15,6 +15,32 @@ variable_player:
   s_left_outlane_active:
     some_variable: 1  
 
+  s_flipper_left_active{current_player.l_vuk_power<40}:
+    l_vuk_power: 5
+  s_flipper_left_active{current_player.l_vuk_power>=40}:
+    l_vuk_power:
+      int: 10
+      action: set 
+
+      
+##  s_flipper_left_active:
+ #   l_vuk_power: 5 if (current_player.l_vuk_power<20) else reset_l_vuk #-20
+    #  int: 25 if player.l_vuk_power < 20 else 10
+    #  action: set
+    #  int: 25 #25 if (player.l_vuk_power<20) else 15         # sets the player's "ramps" variable to 0.
+    #  action: set 
+
+
+
+
+
+
+event_player:
+  reset_l_vuk:
+    l_vuk_power: 
+      int: current_player.l_vuk_power = 10
+      action: set
+
 extra_balls:
   score_one:
     enabled: true
@@ -43,7 +69,7 @@ shot_profiles:
 
 shots:
   my_first_shot:
-    switch: s_2bank_top 
+    switch: s_vuk_left
     show_tokens:
       led: l_led1 
     profile: my_first_profile
@@ -69,3 +95,6 @@ sound_player:
     sfx_fail:
       loops: -1
    
+   
+   
+ 

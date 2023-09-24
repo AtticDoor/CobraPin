@@ -60,11 +60,31 @@ switches:
     number: 1-0-44
   s_shooter_lane:
     number: 1-0-45
-  s_troughopto:
+  s_46:
     number: 1-0-46
-  s_2bank_top:
+  s_47:
     number: 1-0-47
     
+ 
+ 
+ 
+  s_orbit_left:
+    number: 1-0-48
+  s_orbit_center:
+    number: 1-0-49
+  s_vuk_left:
+    number: 1-0-50
+  s_l_standup:
+    number: 1-0-51
+  s_r_standup:
+    number: 1-0-52
+  s_53:
+    number: 1-0-53
+  s_543bank_mid:
+    number: 1-0-54
+  s_553bank_bot:   
+    number: 1-0-55
+ 
  
 #2 0 5 4
 # 40 41 42 43
@@ -88,23 +108,6 @@ switches:
   s_extra_ball:
     number: 1-0-88
  
- 
-  s_5bank_bottom:
-    number: 1-0-55
-  s_5bank_midbottom:
-    number: 1-0-54
-  s_5bank_middle:
-    number: 1-0-53
-  s_5bank_midtop:
-    number: 1-0-52
-  s_5bank_top:
-    number: 1-0-51
-  s_3bank_top:
-    number: 1-0-50
-  s_3bank_mid:
-    number: 1-0-49
-  s_3bank_bot:   
-    number: 1-0-48
     
     
   s_left_ramp_enter:
@@ -192,26 +195,26 @@ switches:
   # - s_trough2
   # - s_trough3
   
-drop_targets:
-   left1:
-     debug: True
-     switch: s_3bank_top
-   left2:
-     debug: True
-     switch: s_3bank_mid
-   left3:
-     debug: True
-     switch: s_3bank_bot
-     reset_coil: c_3bank_reset
-     #knockdown_coil: coil3
-     #knockdown_events: knock_knock
-     reset_events: reset_target
+#drop_targets:
+#   left1:
+#     debug: True
+#     switch: s_3bank_top
+#   left2:
+#     debug: True
+#     switch: s_3bank_mid
+#   left3:
+#     debug: True
+#     switch: s_3bank_bot
+#     reset_coil: c_3bank_reset
+#     #knockdown_coil: coil3
+#     #knockdown_events: knock_knock
+#     reset_events: reset_target
 
 
-drop_target_banks:
-   left_bank:
-     debug: True
-     drop_targets: left1, left2, left3
-     reset_coils: c_3bank_reset
-     reset_events:
-       drop_target_bank_left_bank_down: 1s
+#drop_target_banks:
+#   left_bank:
+#     debug: True
+#     drop_targets: left1, left2, left3
+#     reset_coils: c_3bank_reset
+#     reset_events:
+#       drop_target_bank_left_bank_down: 1s
