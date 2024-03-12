@@ -15,18 +15,18 @@ coils:
     allow_enable: true
     number: 0-0-10
     default_hold_power: 0.125
-    default_pulse_ms: 20
+    default_pulse_ms: 40
     
   c_flipper_right:
     allow_enable: true
     number: 0-0-9
     default_hold_power: 0.125
-    default_pulse_ms: 20
+    default_pulse_ms: 40
   c_flipper_upper_right:
     allow_enable: true
     number: 0-0-0
     default_hold_power: 0.125
-    default_pulse_ms: 20
+    default_pulse_ms: 30
 
 
 
