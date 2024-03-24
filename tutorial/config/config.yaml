@@ -37,8 +37,9 @@ psus:
     release_wait_ms: 50
 
 game:
-  balls_per_game: 3
+  balls_per_game: 30
   max_players: 4
+
 
 #events: 
     # - event: add_credit
@@ -69,7 +70,8 @@ modes:
 #  - ball_bonus
 #  - tar getmode
 #  - sta rt_selecton_on_ball_one
-#  - mat ch
+  - match
+
 
 config:
   - config_lights.yaml  
@@ -120,7 +122,7 @@ playfields:
     ball_search_interval: 250ms    
 
 player_vars:
-  current_mode:
+  cuxrrent_mode:
     initial_value: Trees Attack
     value_type: str
   bumper_hits:
@@ -162,12 +164,17 @@ flippers:
   
     
 machine:
-  balls_installed: 5    
+  balls_installed: 2
+
+
+
 
 displays:
   window:
     width: 800
     height: 600  
+    left: 0
+    top: 0
   dmd:
     width: 800
     height: 600  
@@ -181,8 +188,8 @@ slides:
   window_slide:
     - type: display
       effects:
-        - type: color_dmd
-          dot_size: .5
+ #       - type: color_dmd
+ #         dot_size: .5
       width: 800
       height: 600
   dmd_slide:

@@ -1,4 +1,4 @@
-#config_version=5
+#config_version=6
 ##! mode: match
 # in modes/match/config/match.yaml
 queue_relay_player:
@@ -29,40 +29,43 @@ sound_player:
 slides:
   match_slide:
     - type: text
-      font_size: 30
       text: MATCH
     - type: text
       text: "Player 1: (match_number0)"
-      font_size: 30
     - type: text
       text: "Player 2: (match_number1)"
-      font_size: 30
     - type: text
       text: "Player 3: (match_number2)"
-      font_size: 30
     - type: text
       text: "Player 4: (match_number3)"
-      font_size: 30
     - type: text
       text: "Match number: (winner_number)"
-      font_size: 30
   no_match_slide:
     - type: text
       text: NO MATCH
-      font_size: 30
+      font_size: 12
       anchor_y: bottom
     - type: text
       text: "Player 1: (match_number0)"
-      font_size: 30
     - type: text
       text: "Player 2: (match_number1)"
-      font_size: 30
     - type: text
       text: "Player 3: (match_number2)"
-      font_size: 30
     - type: text
       text: "Player 4: (match_number3)"
-      font_size: 30
     - type: text
       text: "Match number: (winner_number)"
-      font_size: 30
+
+##! test
+#! start_game
+#! advance_time_and_run 5
+#! assert_mode_not_running match
+#! drain_all_balls
+#! advance_time_and_run 5
+#! drain_all_balls
+#! advance_time_and_run 5
+#! drain_all_balls
+#! advance_time_and_run .1
+#! assert_mode_running match
+#! advance_time_and_run 5
+#! assert_mode_not_running ma
