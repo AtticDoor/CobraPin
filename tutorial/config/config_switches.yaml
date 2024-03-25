@@ -1,12 +1,10 @@
-#config_version=5
+#config_version=6
 
-timed_switches:
-  game_cancel:
-    switch_tags: start
-    time: 5s
-    events_when_active: end_game
-
-
+#timed_switches:
+#  game_cancel:
+#    switch_tags: start
+#    time: 5s
+#    events_when_active: end_game
 
 switches:
   #DIRECT SWITCHES
@@ -21,19 +19,21 @@ switches:
 
 
   s_start_btn:
-    number: 0-0-3
+    number: 0-0-19
     tags: start    
-  s_tst1:
-    number: 0-0-27
-    tags: start
+#  s_tst1:
+#    number: 0-0-27
+#    tags: start
   s_ball_launch_button:
     number: 0-0-26
-  s_tst10:
-    number: 0-0-9
-  s_tst11:
-    number: 0-0-8
 
-
+  s_016:
+    number: 0-0-16
+  s_017:
+    number: 0-0-17
+  s_018:
+    number: 0-0-18
+    
 
   #MATRIX SWITCHES
   #valid numbers are 1-0-32 through 1-0-95
