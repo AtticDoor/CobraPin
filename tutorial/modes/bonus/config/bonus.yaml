@@ -1,4 +1,4 @@
-#config_version=5
+#config_version=6
 ##! mode: ball_bonus
 mode:
   start_events: ball_ending     # start on ball ending process
@@ -16,7 +16,7 @@ mode:
     
     
 ##! mode: bonus
-#config_version=5
+#config_version=6
 mode_settings:
   display_delay_ms: 1s
   hurry_up_delay_ms: 0

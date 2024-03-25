@@ -1,4 +1,5 @@
-#config_version=5  
+#config_version=6
+ 
 keyboard:
   z:
     switch: s_flipper_left
