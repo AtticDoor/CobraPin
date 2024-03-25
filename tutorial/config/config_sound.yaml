@@ -29,7 +29,8 @@ assets:
       
 sounds:
   music_bg1:  
-    file: base_background_music.ogg
+#    file: base_background_music.ogg
+    file: NInDeadSouls.m4a
     volume: 1.0
     priority: 100
     about_to_finish_time: 2s
