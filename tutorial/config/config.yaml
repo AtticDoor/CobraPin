@@ -230,6 +230,24 @@ slides:
     widgets:
       - text: ATTRACT MODE
         type: text
+      - type: video
+        video: PhoenixCryLargecreen.mp4
+        control_events:
+          - event: play_my_vid
+            action: play
+          - event: wizard_caught
+            action: stop
+          - event: some_event
+            action: pause
+          - event: what_event
+            action: seek
+            value: .5
+          - event: move_it
+            action: position
+            value: 4.2
+          - event: mute_me
+            action: volume
+            value: 0  
   default_saving_ball:
     widgets:
       - type: text
@@ -390,3 +408,11 @@ sound_player:
   mode_base_stopped:
     music_bg1:
       action: stop  
+      
+      
+      
+videos:
+  test_video:
+    width: 100
+    height: 70
+    file: PhoenixCryLargecreen.mp4
