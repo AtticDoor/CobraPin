@@ -36,7 +36,7 @@ sounds:
     about_to_finish_time: 2s
     events_when_about_to_finish: music_bg1_about_to_finish
   sfx_fail:  
-    file: fail.ogg 
+    file: Crow_vid1_audio.ogg 
     volume: 1.0
     priority: 300
     about_to_finish_time: 2s
