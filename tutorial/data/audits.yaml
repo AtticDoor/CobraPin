@@ -1,60 +1,82 @@
 events:
   game_ended: 67
-  game_started: 174
+  game_started: 186
 missing_switches:
-  s_016: 21
-  s_017: 21
-  s_018: 21
-  s_1-0-38: 21
-  s_1-0-39: 21
-  s_2bank_bottom: 21
-  s_46: 21
-  s_47: 21
-  s_4th_coin: 21
-  s_53: 21
-  s_543bank_mid: 21
-  s_553bank_bot: 21
-  s_ball_launch_button_JUNK: 21
-  s_center_coin: 21
-  s_center_ramp_exit: 21
-  s_center_ramp_standup: 21
-  s_extra_ball: 21
-  s_junk3: 21
-  s_junk4: 21
-  s_junk5: 21
-  s_junk_1: 21
-  s_junk_2: 21
-  s_left_coin: 21
-  s_left_orbit_rollover: 21
-  s_left_ramp_enter: 21
-  s_left_ramp_exit: 21
-  s_left_ramp_standup_left: 21
-  s_left_ramp_standup_right: 21
-  s_left_return_lane: 21
-  s_lower_super_vuk: 21
-  s_orbit_left: 21
-  s_plumb_bob_tilt: 21
-  s_pop_bottom: 21
-  s_pop_left: 21
-  s_pop_right: 21
-  s_right_coin_slot: 21
-  s_right_ramp_enter: 21
-  s_right_ramp_exit: 21
-  s_right_ramp_standup_left: 21
-  s_right_ramp_standup_right: 21
-  s_shark_scoop: 21
-  s_slamtilt: 21
-  s_spinner: 21
-  s_start_btn: 4
-  s_start_btn_JUNK: 21
-  s_top_rollover_left: 21
-  s_top_rollover_mid: 21
-  s_top_rollover_right: 21
-  s_under_playfield_ramp_enter: 21
-  s_upper_ball_launch: 21
-  s_upper_right_shark_rollover: 21
-  s_upper_vuk: 21
-  s_vuk_left: 16
+  s_01: 1
+  s_010: 1
+  s_011: 1
+  s_016: 33
+  s_017: 33
+  s_018: 33
+  s_02: 1
+  s_03: 1
+  s_08: 3
+  s_09: 3
+  s_1-0-38: 33
+  s_1-0-39: 33
+  s_2bank_bottom: 33
+  s_46: 33
+  s_47: 33
+  s_4th_coin: 33
+  s_53: 33
+  s_543bank_mid: 33
+  s_553bank_bot: 33
+  s_ball_launch_button_JUNK: 33
+  s_center_coin: 33
+  s_center_ramp_exit: 33
+  s_center_ramp_standup: 33
+  s_extra_ball: 33
+  s_junk3: 33
+  s_junk4: 33
+  s_junk5: 33
+  s_junk_1: 33
+  s_junk_2: 33
+  s_l_standup: 4
+  s_left_coin: 33
+  s_left_inlane: 6
+  s_left_orbit_rollover: 33
+  s_left_outlane: 3
+  s_left_ramp_enter: 33
+  s_left_ramp_exit: 33
+  s_left_ramp_standup_left: 33
+  s_left_ramp_standup_right: 33
+  s_left_return_lane: 33
+  s_left_slingshot: 11
+  s_ll_standup: 2
+  s_lower_super_vuk: 33
+  s_lr_standup: 2
+  s_orbit_center: 11
+  s_orbit_left: 33
+  s_plumb_bob_tilt: 33
+  s_pop_bottom: 33
+  s_pop_left: 33
+  s_pop_right: 33
+  s_r_standup: 9
+  s_right_coin_slot: 33
+  s_right_inlane: 3
+  s_right_outlane: 3
+  s_right_ramp_enter: 33
+  s_right_ramp_exit: 33
+  s_right_ramp_standup_left: 33
+  s_right_ramp_standup_right: 33
+  s_right_slingshot: 4
+  s_rl_standup: 2
+  s_rr_standup: 2
+  s_shark_scoop: 33
+  s_shooter_lane: 1
+  s_slamtilt: 33
+  s_spinner: 33
+  s_start_btn_JUNK: 33
+  s_top_rollover_left: 33
+  s_top_rollover_mid: 33
+  s_top_rollover_right: 33
+  s_trough3: 1
+  s_trough5: 1
+  s_under_playfield_ramp_enter: 33
+  s_upper_ball_launch: 33
+  s_upper_right_shark_rollover: 33
+  s_upper_vuk: 33
+  s_vuk_left: 5
 player:
   score:
     average: 4192
@@ -71,7 +93,7 @@ player:
     - 14433
     total: 138
 shots:
-  my_first_shot: 2619
+  my_first_shot: 2649
   skill_l: 168
   skill_m: 116
   skill_r: 116
@@ -79,15 +101,24 @@ shots:
   top_lane_i: 260
   top_lane_n: 289
 switches:
+  s_01: 0
+  s_010: 0
+  s_011: 0
   s_016: 0
   s_017: 0
   s_018: 0
+  s_02: 0
+  s_03: 0
+  s_08: 0
+  s_09: 0
   s_1-0-38: 0
   s_1-0-39: 0
   s_2bank_bottom: 84
   s_2bank_top: 36
   s_3bank_bot: 227
-  s_3bank_mid: 49
+  s_3bank_left: 1
+  s_3bank_mid: 50
+  s_3bank_right: 1
   s_3bank_top: 54
   s_46: 0
   s_47: 0
@@ -101,7 +132,7 @@ switches:
   s_5bank_middle: 333
   s_5bank_midtop: 276
   s_5bank_top: 270
-  s_ball_launch_button: 1528
+  s_ball_launch_button: 1557
   s_ball_launch_button_JUNK: 0
   s_bottom_popper: 0
   s_center_coin: 2
@@ -112,38 +143,40 @@ switches:
   s_elevator_hold: 0
   s_extra_ball: 8
   s_extraball: 32
-  s_flipper_left: 5691
+  s_flipper_left: 5759
   s_flipper_leftjnk: 0
-  s_flipper_right: 7533
+  s_flipper_right: 7634
   s_flipper_rightjnk: 0
   s_junk3: 0
   s_junk4: 0
   s_junk5: 0
   s_junk_1: 0
   s_junk_2: 0
-  s_l_standup: 25
+  s_l_standup: 28
   s_lane1: 0
   s_lane2: 0
   s_lane3: 49
   s_left_coin: 17
   s_left_flipper: 721
   s_left_flipper_button: 110
-  s_left_inlane: 504
+  s_left_inlane: 508
   s_left_jet: 0
   s_left_orbit_rollover: 14
-  s_left_outlane: 489
+  s_left_outlane: 577
   s_left_ramp_enter: 78
   s_left_ramp_exit: 22
   s_left_ramp_standup_left: 34
   s_left_ramp_standup_right: 59
   s_left_return_lane: 107
-  s_left_slingshot: 1088
+  s_left_slingshot: 1091
   s_left_slingshot10: 0
   s_left_slingshot11: 0
   s_left_slingshot2: 0
   s_left_slingshot3: 0
+  s_ll_standup: 0
   s_lower_super_vuk: 666
-  s_orbit_center: 325
+  s_lr_standup: 0
+  s_orbit_center: 327
   s_orbit_center_midbottom: 7
   s_orbit_left: 70
   s_plumb_bob_tilt: 506
@@ -151,27 +184,29 @@ switches:
   s_pop_bottom: 765
   s_pop_left: 503
   s_pop_right: 641
-  s_r_standup: 24
+  s_r_standup: 25
   s_right_coin_slot: 1
   s_right_flipper: 328
   s_right_flipper_button: 183
-  s_right_inlane: 2090
+  s_right_inlane: 2100
   s_right_inner_return_lane: 211
   s_right_jet: 0
   s_right_outer_return_lane: 309
-  s_right_outlane: 142
+  s_right_outlane: 149
   s_right_ramp_enter: 30
   s_right_ramp_exit: 34
   s_right_ramp_standup_left: 42
   s_right_ramp_standup_right: 53
-  s_right_slingshot: 1818
+  s_right_slingshot: 1823
+  s_rl_standup: 0
+  s_rr_standup: 0
   s_shark_scoop: 579
-  s_shooter_lane: 1748
+  s_shooter_lane: 1858
   s_singleshot: 546
   s_slamtilt: 9
   s_spinner: 107
   s_start: 48
-  s_start_btn: 217
+  s_start_btn: 247
   s_start_btn_JUNK: 0
   s_target1: 170
   s_target2: 237
@@ -181,11 +216,11 @@ switches:
   s_top_rollover_mid: 121
   s_top_rollover_right: 74
   s_top_slingshot: 0
-  s_trough1: 1117
-  s_trough2: 1827
-  s_trough3: 2901
-  s_trough4: 1615
-  s_trough5: 1326
+  s_trough1: 1476
+  s_trough2: 2170
+  s_trough3: 2969
+  s_trough4: 2046
+  s_trough5: 1844
   s_trough6: 0
   s_trough_jam: 0
   s_troughopto: 0
@@ -197,5 +232,5 @@ switches:
   s_upper_right_shark_flipper: 219
   s_upper_right_shark_rollover: 77
   s_upper_vuk: 32
-  s_vuk_left: 405
+  s_vuk_left: 444
   sx_trough4: 52

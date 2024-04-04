@@ -33,7 +33,27 @@ switches:
     number: 0-0-17
   s_018:
     number: 0-0-18
-    
+     
+     
+#3rd bank ofon connector j3
+  s_3bank_right:
+    number: 1-0-1     
+  s_3bank_mid:
+    number: 1-0-2     
+  s_3bank_left:
+    number: 1-0-3     
+  s_08:
+    number: 1-0-8     
+  s_09:
+    number: 1-0-9       
+  s_rl_standup:
+    number: 1-0-10
+  s_rr_standup:
+    number: 1-0-11
+
+
+
+
 
   #MATRIX SWITCHES
   #valid numbers are 1-0-32 through 1-0-95
@@ -83,9 +103,9 @@ switches:
     number: 1-0-49
   s_vuk_left:
     number: 1-0-50
-  s_l_standup:
+  s_ll_standup:
     number: 1-0-51
-  s_r_standup:
+  s_lr_standup:
     number: 1-0-52
   s_53:
     number: 1-0-53
@@ -204,26 +224,26 @@ switches:
   # - s_trough2
   # - s_trough3
   
-#drop_targets:
-#   left1:
-#     debug: True
-#     switch: s_3bank_top
-#   left2:
-#     debug: True
-#     switch: s_3bank_mid
-#   left3:
-#     debug: True
-#     switch: s_3bank_bot
-#     reset_coil: c_3bank_reset
-#     #knockdown_coil: coil3
-#     #knockdown_events: knock_knock
-#     reset_events: reset_target
+drop_targets:
+   left1:
+     debug: True
+     switch: s_3bank_left
+   left2:
+     debug: True
+     switch: s_3bank_mid
+   left3:
+     debug: True
+     switch: s_3bank_right
+     reset_coil: c_3bank_reset
+     #knockdown_coil: coil3
+     #knockdown_events: knock_knock
+     reset_events: reset_target
 
 
-#drop_target_banks:
-#   left_bank:
-#     debug: True
-#     drop_targets: left1, left2, left3
-#     reset_coils: c_3bank_reset
-#     reset_events:
-#       drop_target_bank_left_bank_down: 1s
+drop_target_banks:
+   left_bank:
+     debug: True
+     drop_targets: left1, left2, left3
+     reset_coils: c_3bank_reset
+     reset_events:
+       drop_target_bank_left_bank_down: 1s
