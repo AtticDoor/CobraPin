@@ -37,11 +37,14 @@ switches:
      
 #3rd bank ofon connector j3
   s_3bank_right:
-    number: 1-0-1     
+    number: 1-0-1  
+    type: 'NC'      #normally closed    
   s_3bank_mid:
     number: 1-0-2     
+    type: 'NC'      #normally closed
   s_3bank_left:
     number: 1-0-3     
+    type: 'NC'      #normally closed
   s_08:
     number: 1-0-8     
   s_09:
