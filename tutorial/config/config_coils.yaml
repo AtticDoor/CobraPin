@@ -15,8 +15,7 @@ coils:
     allow_enable: true
     number: 0-0-10
     default_hold_power: 0.125
-    default_pulse_ms: 40
-    
+    default_pulse_ms: 40    
   c_flipper_right:
     allow_enable: true
     number: 0-0-9
@@ -32,26 +31,25 @@ coils:
 
 
   #BANK A
-  c_5ball_trough_lock:      #1L          #NOT USING
-     number: 0-0-14 #1-0-1
-     default_pulse_ms: 20
+#  c_5ball_trough_lock:      #1L          #NOT USING
+#     number: 0-0-14 #1-0-1
+#     default_pulse_ms: 20
   c_trough_upkicker:        #2L
      number: 0-0-13 #1-0-2
      default_pulse_ms: 40
-#  c_upper_launch:           #4L
-#     number: 1-0-3
-#     default_pulse_ms: 20
-  c_3bnk_standup:              #6L   //in apron by trough?  seems pretty worthless
-    number: 0-0-11 #1-0-4 
+  c_3bank_reset:            #16
+    number: 1-0-3 #0-0-12 
+    default_pulse_ms: 30      
+# c_flipper_upper_right: 0-0-0
+  c_3bnk_standup:
+    number: 0-0-11 
     default_pulse_ms: 20 
-     
+# c_flipper_right: 0-0-10 
+# c_flipper_left: 0-0-0 9   
+# c_unused: 0-0-8     
      
      
   #BANK B   
-  c_auto_launch:            #3L
-    number: 0-0-6
-    default_pulse_ms: 20
-    default_hold_power: 0.1
   c_ctrl_gate_left:
     number: 0-0-1
     default_pulse_ms: 20
@@ -60,35 +58,37 @@ coils:
     number: 0-0-2
     default_pulse_ms: 20
     default_hold_power: 0.2 
+# c_unused: 0-0-3     
+# c_unused: 0-0-4   
   c_vuk_left:              
     number: 0-0-5
     default_pulse_ms: 30 #current_player.l_vuk_power
-    #bumper_hits   
-  c_shark_scoop:            #7L
-    number: 0-0-15
-    default_pulse_ms: 20  
-     
+    #bumper_hits     
+  c_auto_launch:          
+    number: 0-0-6
+    default_pulse_ms: 20
+    default_hold_power: 0.1
+# c_unused: 0-0-15
+
   #BANK C
- # c_upper_control_gate:     #9
- #    number: 0-0-13  #14 didnt work
- #    default_pulse_ms: 20  
-  c_3bank_reset:            #16
-    number: 1-0-3 #0-0-12 
-    default_pulse_ms: 30     
+   
   c_pop_left:            #17
-     number: 1-0-4 
+     number: 1-0-1 
      default_pulse_ms: 20  
   c_pop_bottom:          #18
-     number: 1-0-5
+     number: 1-0-2
      default_pulse_ms: 20  
   c_pop_right:           #19
-     number: 1-0-6
+     number: 1-0-3
+     default_pulse_ms: 20  
+# c_unused: 0-0-4
+# c_unused: 0-0-5
+# c_unused: 0-0-6
+  c_right_slingshot:        #21
+     number: 1-0-7
      default_pulse_ms: 20  
   c_left_slingshot:         #20
      number: 1-0-0
-     default_pulse_ms: 20  
-  c_right_slingshot:        #21
-     number: 1-0-7
      default_pulse_ms: 20  
     
 autofire_coils:
@@ -98,7 +98,6 @@ autofire_coils:
   right_slingshot:
     coil: c_right_slingshot
     switch: s_right_slingshot
-
 
   pop_left:
     coil: c_pop_left
