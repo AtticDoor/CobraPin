@@ -41,6 +41,12 @@ game:
   balls_per_game: 30
   max_players: 4
 
+#added from example code on mpf
+#event_player:
+#  mode_base_started:
+#    - start_mode_sequential_drops
+  
+
 
 #events: 
     # - event: add_credit
@@ -81,6 +87,8 @@ config:
   - config_keyboard.yaml
   - config_coils.yaml
   - config_variables.yaml
+  - config_shots.yaml
+  - config_events.yaml
      
      
      
