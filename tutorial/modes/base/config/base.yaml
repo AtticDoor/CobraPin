@@ -30,6 +30,30 @@ variable_player:
     #  int: 25 #25 if (player.l_vuk_power<20) else 15         # sets the player's "ramps" variable to 0.
     #  action: set 
 
+  #mode_is_complete{current_player.current_ladder=="Scene 1"}:
+  #  ladder_scene_1: 1
+
+  carousel_left_scoop_scene_selected:
+    current_ladder:
+      action: set
+      string: 'Scene 1'
+
+  #shot_drop_1_hit{current_player.Drop1isallowedDown==0}: reset_droptargetbank_Drop
+  shot_drop_1_hit:
+    current_ladder:
+      action: set
+      string: 'drop 1 hit'  
+  shot_drop_2_hit:
+    current_ladder:
+      action: set
+      string: 'drop 2 hit'  
+  shot_drop_3_hit:
+    current_ladder:
+      action: set
+      string: 'drop 3 hit'   
+   
+   
+ 
 
 
 
@@ -73,6 +97,53 @@ shots:
     show_tokens:
       led: l_led1 
     profile: my_first_profile
+    
+  #config_version=6
+
+      
+#sequence_shots:
+#  my_switch_based_sequence_shot:
+#    switch_sequence:
+#      - drop_1
+#      - drop_2
+#      - drop_3
+#    cancel_switches: seq2_cancel
+#    delay_switch_list:
+#      seq2_delay: 1s
+#    sequence_timeout: 3s
+    
+    
+
+
+  drop_1:
+#    advance_events: advance_drop_1, drop_1_lit_hit
+    reset_events: reset_drop_sequence
+    switch: s_3bank_left
+  #  profile: drop_sequence
+#    show_tokens:
+#      led: l_drop_1
+  drop_2:
+#    advance_events: drop_1_lit_hit, drop_2_lit_hit
+    reset_events: reset_drop_sequence
+    switch: s_3bank_mid
+   # profile: drop_sequence
+#    show_tokens:
+#      led: l_drop_2
+  drop_3:
+#    advance_events: drop_2_lit_hit, drop_3_lit_hit
+    reset_events: reset_drop_sequence
+    switch: s_3bank_right
+   # profile: drop_sequence
+#    show_tokens:
+#      led: l_drop_3  
+    
+    
+    
+    
+    
+    
+    
+    
 
 slide_player:
   mode_base_started: slide_ball_started
@@ -96,5 +167,3 @@ sound_player:
       loops: -1
    
    
-   
- 

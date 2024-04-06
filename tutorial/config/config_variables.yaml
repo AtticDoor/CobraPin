@@ -29,25 +29,3 @@ player_vars:
     initial_value: 0     
     value_type: str 
         
-variable_player:
-  #mode_is_complete{current_player.current_ladder=="Scene 1"}:
-  #  ladder_scene_1: 1
-
-  carousel_left_scoop_scene_selected:
-    current_ladder:
-      action: set
-      string: 'Scene 1'
-
-  #shot_drop_1_hit{current_player.Drop1isallowedDown==0}: reset_droptargetbank_Drop
-  shot_drop_1_hit:
-    current_ladder:
-      action: set
-      string: 'drop 1 hit'  
-  shot_drop_2_hit:
-    current_ladder:
-      action: set
-      string: 'drop 2 hit'  
-  shot_drop_3_hit:
-    current_ladder:
-      action: set
-      string: 'drop 3 hit'

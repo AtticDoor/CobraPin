@@ -13,27 +13,3 @@
 #    sequence_timeout: 3s
     
     
-
-
-shots:
-  drop_1:
-#    advance_events: advance_drop_1, drop_1_lit_hit
-    reset_events: reset_drop_sequence
-    switch: s_3bank_left
-    profile: drop_sequence
-#    show_tokens:
-#      led: l_drop_1
-  drop_2:
-#    advance_events: drop_1_lit_hit, drop_2_lit_hit
-    reset_events: reset_drop_sequence
-    switch: s_3bank_mid
-    profile: drop_sequence
-#    show_tokens:
-#      led: l_drop_2
-  drop_3:
-#    advance_events: drop_2_lit_hit, drop_3_lit_hit
-    reset_events: reset_drop_sequence
-    switch: s_3bank_right
-    profile: drop_sequence
-#    show_tokens:
-#      led: l_drop_3
