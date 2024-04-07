@@ -4,6 +4,7 @@ hardware:
   platform: opp
   driverboards: gen2
 
+#pipx inject mpf mpf-language-server --pip-args="--pre" --verbose --include-deps --include-apps
 
 opp:
   #Use the USB ports defined by your OS for the two STM32 boards

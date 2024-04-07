@@ -30,10 +30,19 @@ player_vars:
   drop1isallowedDown:
     initial_value: 0      
   
-  current_ladder: 
-    initial_value: 0     
-    value_type: str 
   current_ladder:
     initial_value: 'nil'   
     value_type: str  
         
+
+  shot_drop_1:
+    initial_value: 'nil'   
+    value_type: str  
+  shot_drop_2:
+    initial_value: 'nil'   
+    value_type: str  
+  shot_drop_3:
+    initial_value: 'nil'   
+    value_type: str  
+
+
