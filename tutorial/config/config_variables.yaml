@@ -7,7 +7,6 @@
     
 player_vars:
 #shot_Drop1_hit{current_player.Drop1isallowedDown==0}: reset_droptargetbank_Drop
-#config:
 
 
 

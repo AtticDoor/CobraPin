@@ -65,6 +65,17 @@ event_player:
       int: current_player.l_vuk_power = 10
       action: set
 
+
+event_player:
+  shot_Drop1_hit{current_player.shot_drop_3==1}: 
+    reset_drop_target_bank_left_bank
+  mode_base_started{current_player.score>10000}:
+    - start_mode_superbonusround
+    - play_show_richy_rich
+  start_mode_battle{device.achievements.ironthrone.state!="completed"}: start_mode_choose_battle
+  
+shot_Drop1_hit{current_player.Drop1isallowedDown==0}: reset_droptargetbank_Drop
+
 extra_balls:
   score_one:
     enabled: true
