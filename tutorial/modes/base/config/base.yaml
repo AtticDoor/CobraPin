@@ -68,19 +68,31 @@ event_player:
       int: current_player.l_vuk_power = 10
       action: set
 
-
-  mode_start:
+  mode_base_started:
      reset_events:
        drop_target_bank_left_bank_down: 0s
        #reset_drop_target: 1s
 
        
-  shot_drop_1_hit{current_player.drop_2=='1'}: 
+  shot_drop_1_hit{current_player.drop_2==1 || current_player.drop_3==1}: 
     reset_drop_target
-  shot_drop_3_hit{current_player.drop_2==1}: 
+    
+  shot_drop_2_hit{current_player.drop_1!=1 || current_player.drop_3==1}: 
     reset_drop_target
-  shot_drop_2_hit:
+
+  shot_drop_3_hit{current_player.drop_1!=1 || current_player.drop_2!=1}: 
     reset_drop_target
+
+  reset_drop_target:  #set all drop target vars to 0
+    drop_1: 
+      int: 0
+      action: set
+    drop_2: 
+      int: 0
+      action: set
+    drop_3: 
+      int: 0
+      action: set
 
 
 extra_balls:

@@ -31,13 +31,13 @@ player_vars:
         
 
   drop_1:
-    initial_value: 'nil'   
-    value_type: str  
+    initial_value: 0
+    value_type: int  
   drop_2:
-    initial_value: 'nil'   
-    value_type: str  
+    initial_value: 0
+    value_type: int  
   drop_3:
-    initial_value: 'nil'   
-    value_type: str  
+    initial_value: 0
+    value_type: int  
 
 
