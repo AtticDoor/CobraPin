@@ -4,8 +4,21 @@
 #    initial_value: 10
 #    value_type: int
     
-    
 player_vars:
+  l_vuk_power:
+    initial_value: 10
+    value_type: int
+    
+  current_mode:
+    initial_value: Trees Attack
+    value_type: str
+  bumper_hits:
+    initial_value: 0
+    value_type: int
+  super_bonus_multipler:
+    initial_value: 1.25
+    value_type: float
+#player_vars:
 #shot_Drop1_hit{current_player.Drop1isallowedDown==0}: reset_droptargetbank_Drop
 
 
@@ -14,17 +27,13 @@ player_vars:
     initial_value: 10
     value_type: int
 
-  selected_hero:
-    initial_value: Ana
-    value_type: str
-
-  is_selected_hero: 
-    initial_value: 0
-    value_type: int
   drop1isallowedDown:
     initial_value: 0      
   
   current_ladder: 
     initial_value: 0     
     value_type: str 
+  current_ladder:
+    initial_value: 'nil'   
+    value_type: str  
         

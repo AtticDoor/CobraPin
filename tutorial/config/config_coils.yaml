@@ -1,14 +1,6 @@
 #config_version=6
 
 
-player_vars:
-  l_vuk_power:
-    initial_value: 10
-    value_type: int
-    
-    
-    
-    
     
 coils:
   c_flipper_left:
