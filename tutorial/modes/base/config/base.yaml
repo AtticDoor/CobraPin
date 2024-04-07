@@ -4,6 +4,8 @@ mode:
   stop_events: game_ended, service_mode_entered, ball_drained, ball_ended, mode_base_ended, player_turn_ended
   priority: 100
 
+
+    
 variable_player:
   my_first_shot_my_first_profile_unlit_hit:
     score: 100
@@ -41,15 +43,15 @@ variable_player:
 
   #shot_drop_1_hit{current_player.Drop1isallowedDown==0}: reset_droptargetbank_Drop
   shot_drop_1_hit:
-    shot_drop_1:
+    drop1isallowedDown:
       action: set
-      string: '1''  
+      string: '1'  
   shot_drop_2_hit:
-    shot_drop_2:
+    drop_2:
       action: set
       string: '1'  
   shot_drop_3_hit:
-    shot_drop_3:
+    drop_3:
       action: set
       string: '2'   
    
@@ -67,9 +69,18 @@ event_player:
       action: set
 
 
+  mode_start:
+     reset_events:
+       drop_target_bank_left_bank_down: 0s
+       #reset_drop_target: 1s
 
-  shot_drop_3_hit{current_player.shot_drop_2==1}: 
-    reset_drop_target_bank_left_bank
+       
+  shot_drop_1_hit{current_player.drop_2=='1'}: 
+    reset_drop_target
+  shot_drop_3_hit{current_player.drop_2==1}: 
+    reset_drop_target
+  shot_drop_2_hit:
+    reset_drop_target
 
 
 extra_balls:
@@ -122,21 +133,21 @@ shots:
     
 
 
-  drop_1:
+  shot_drop_1:
 #    advance_events: advance_drop_1, drop_1_lit_hit
     reset_events: reset_drop_sequence
     switch: s_3bank_left
   #  profile: drop_sequence
 #    show_tokens:
 #      led: l_drop_1
-  drop_2:
+  shot_drop_2:
 #    advance_events: drop_1_lit_hit, drop_2_lit_hit
     reset_events: reset_drop_sequence
     switch: s_3bank_mid
    # profile: drop_sequence
 #    show_tokens:
 #      led: l_drop_2
-  drop_3:
+  shot_drop_3:
 #    advance_events: drop_2_lit_hit, drop_3_lit_hit
     reset_events: reset_drop_sequence
     switch: s_3bank_right

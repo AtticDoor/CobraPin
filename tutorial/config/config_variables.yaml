@@ -22,11 +22,6 @@ player_vars:
 #shot_Drop1_hit{current_player.Drop1isallowedDown==0}: reset_droptargetbank_Drop
 
 
-
-  l_vuk_power:
-    initial_value: 10
-    value_type: int
-
   drop1isallowedDown:
     initial_value: 0      
   
@@ -35,13 +30,13 @@ player_vars:
     value_type: str  
         
 
-  shot_drop_1:
+  drop_1:
     initial_value: 'nil'   
     value_type: str  
-  shot_drop_2:
+  drop_2:
     initial_value: 'nil'   
     value_type: str  
-  shot_drop_3:
+  drop_3:
     initial_value: 'nil'   
     value_type: str  
 

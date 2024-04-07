@@ -250,4 +250,4 @@ drop_target_banks:
      reset_coils: c_3bank_reset
      reset_events:
        drop_target_bank_left_bank_down: 1s
-       reset_drop_target_bank_left_bank: 1s
+       reset_drop_target: 1s
