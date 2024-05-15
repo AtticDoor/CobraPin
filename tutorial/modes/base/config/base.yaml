@@ -43,9 +43,12 @@ variable_player:
 
   #shot_drop_1_hit{current_player.Drop1isallowedDown==0}: reset_droptargetbank_Drop
   shot_drop_1_hit:
-    drop1isallowedDown:
+    drop_1:
       action: set
       string: '1'  
+    current_ladder:
+      action: set
+      string: 'Scene 1'
   shot_drop_2_hit:
     drop_2:
       action: set
@@ -53,7 +56,7 @@ variable_player:
   shot_drop_3_hit:
     drop_3:
       action: set
-      string: '2'   
+      string: '1'   
    
    
  
@@ -70,29 +73,59 @@ event_player:
 
   mode_base_started:
      reset_events:
-       drop_target_bank_left_bank_down: 0s
-       #reset_drop_target: 1s
+       #drop_target_bank_left_bank_down: 0s
+       reset_drop_target: 1s
 
-       
-  shot_drop_1_hit{current_player.drop_2==1 || current_player.drop_3==1}: 
-    reset_drop_target
+  s_left_inlane_active:
+    - reset_drop_target_values
     
-  shot_drop_2_hit{current_player.drop_1!=1 || current_player.drop_3==1}: 
-    reset_drop_target
+  
+  
+  
+  shot_drop_1_hit{current_player.drop_2=='1'}: #|| ( current_player.drop_3==1)}: 
+    - reset_drop_target
+    - reset_drop_target_values
 
-  shot_drop_3_hit{current_player.drop_1!=1 || current_player.drop_2!=1}: 
-    reset_drop_target
+  shot_drop_1_hit{current_player.drop_3=='1'}: #|| ( current_player.drop_3==1)}: 
+    - reset_drop_target
+    - reset_drop_target_values
 
-  reset_drop_target:  #set all drop target vars to 0
-    drop_1: 
-      int: 0
+  shot_drop_2_hit{current_player.drop_1!='1'}: #|| ( current_player.drop_3==1)}: 
+    - reset_drop_target
+    - reset_drop_target_values
+
+  shot_drop_2_hit{current_player.drop_3=='1'}: #|| ( current_player.drop_3==1)}: 
+    - reset_drop_target
+    - reset_drop_target_values
+  shot_drop_3_hit{current_player.drop_1!='1'}: #|| ( current_player.drop_3==1)}: 
+    - reset_drop_target
+    - reset_drop_target_values
+
+  shot_drop_3_hit{current_player.drop_2!='1'}: #|| ( current_player.drop_3==1)}: 
+    - reset_drop_target
+    - reset_drop_target_values
+
+#    reset_drop_target_values
+ # shot_drop_1_hit{(current_player.drop_2==1) || ( current_player.drop_3==1)}: 
+ #   reset_drop_target
+    
+ # shot_drop_2_hit{current_player.drop_1!=1 || current_player.drop_3==1}: 
+ #   reset_drop_target
+
+ # shot_drop_3_hit{current_player.drop_1!=1 || current_player.drop_2!=1}: 
+ #   reset_drop_target
+
+  reset_drop_target_values:  #set all drop target vars to 0
+    #reset_drop_target: 0s
+    drop_2:
       action: set
-    drop_2: 
-      int: 0
-      action: set
-    drop_3: 
-      int: 0
-      action: set
+      string: '4'
+  #  drop_2: 
+  #    int: 0
+  #    action: set
+  #  drop_3: 
+  #    int: 0
+  #    action: set
 
 
 extra_balls:
