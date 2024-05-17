@@ -8,7 +8,7 @@ hardware:
 
 opp:
   #Use the USB ports defined by your OS for the two STM32 boards
-  ports: COM4, COM5
+  ports: COM4, COM3
   
   #/dev/ttyACM0, /dev/ttyACM1
   #USING SERIAL NUMBERS INSTEAD OF CHAINS
@@ -39,7 +39,7 @@ psus:
     release_wait_ms: 50
 
 game:
-  balls_per_game: 30
+  balls_per_game: 2
   max_players: 4
 
 #added from example code on mpf
