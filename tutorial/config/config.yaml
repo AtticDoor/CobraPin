@@ -79,7 +79,7 @@ modes:
 #  - tar getmode
 #  - sta rt_selecton_on_ball_one
 #  - match
-
+  - upsidedown
 
 config:
   - config_lights.yaml  

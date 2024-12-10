@@ -51,3 +51,11 @@ keyboard:
     event: base_stop
   l:
     event: mode_attract_started
+
+
+    
+#TODO: delete this - temporary testing mode
+  8:
+    event: upsidedown_start
+  9:
+    event: upsidedown_stop

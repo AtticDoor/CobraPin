@@ -1,0 +1,30 @@
+#config_version=6
+
+mode:
+  start_events: upsidedown_start
+  stop_events: upsidedown_stop
+  priority: 1000
+
+widgets:
+  upsidedown_start_banner:
+    type: text
+    text: UPSIDE DOWN STARTED
+    font_size: 50
+    color: lime
+    y: 80%
+    expire: 1s
+
+widget_player:
+  mode_upsidedown_started: upsidedown_start_banner
+
+#variable_player:
+#  my_first_shot_hit:
+#    score: 1
+
+
+
+##! test
+#! start_game
+#! start_mode upsidedown
+#! advance_time_and_run .1
+#! assert_text_on_top_slide "MODE 2 STARTED"
