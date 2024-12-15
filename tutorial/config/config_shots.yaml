@@ -1,15 +1,7 @@
 #config_version=6
 
-      
-#sequence_shots:
-#  my_switch_based_sequence_shot:
-#    switch_sequence:
-#      - drop_1
-#      - drop_2
-#      - drop_3
-#    cancel_switches: seq2_cancel
-#    delay_switch_list:
-#      seq2_delay: 1s
-#    sequence_timeout: 3s
-    
-    
+###########################################################
+###########################################################
+#SHOTS AREN'T ALLOWED AT MACHINE LEVEL.  MUST BE IN MODES
+###########################################################
+###########################################################    

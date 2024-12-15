@@ -5,6 +5,9 @@ mode:
   priority: 100
 
 
+config:
+  - base-shots.yaml
+
     
 variable_player:
   my_first_shot_my_first_profile_unlit_hit:
@@ -24,6 +27,7 @@ variable_player:
     l_vuk_power:
       int: 10
       action: set 
+
 
       
 ##  s_flipper_left_active:
@@ -141,77 +145,6 @@ extra_balls:
 
 
   
-
-
-shot_profiles:
-  my_first_profile:
-    states:
-      - name: unlit  # step 1
-        show: off
-      - name: flashing  # step 2
-        show: flash
-      - name: lit  # step 3
-        show: on
-    loop: true
-
-shots:
-  my_first_shot:
-    switch: s_vuk_left
-    show_tokens:
-      led: l_led1 
-    profile: my_first_profile
-    
-  #config_version=6
-
-      
-#sequence_shots:
-#  my_switch_based_sequence_shot:
-#    switch_sequence:
-#      - drop_1
-#      - drop_2
-#      - drop_3
-#    cancel_switches: seq2_cancel
-#    delay_switch_list:
-#      seq2_delay: 1s
-#    sequence_timeout: 3s
-    
-    
-
-
-  shot_drop_1:
-#    advance_events: advance_drop_1, drop_1_lit_hit
-    reset_events: reset_drop_sequence
-    switch: s_3bank_left
-  #  profile: drop_sequence
-#    show_tokens:
-#      led: l_drop_1
-  shot_drop_2:
-#    advance_events: drop_1_lit_hit, drop_2_lit_hit
-    reset_events: reset_drop_sequence
-    switch: s_3bank_mid
-   # profile: drop_sequence
-#    show_tokens:
-#      led: l_drop_2
-  shot_drop_3:
-#    advance_events: drop_2_lit_hit, drop_3_lit_hit
-    reset_events: reset_drop_sequence
-    switch: s_3bank_right
-   # profile: drop_sequence
-#    show_tokens:
-#      led: l_drop_3  
-    
-    
-    
-    
-    
-    
-    
-    
-
-slide_player:
-  mode_base_started: slide_ball_started
- 
-        
 sound_player:
   mode_base_started:
     music_bg1:
@@ -228,5 +161,14 @@ sound_player:
   sw_plunger:
     sfx_fail:
       loops: -1
-   
+
+    
+    
+    
+    
+    
+
+slide_player:
+  mode_base_started: slide_ball_started   
+ 
    

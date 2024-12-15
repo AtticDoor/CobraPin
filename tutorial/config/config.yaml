@@ -39,8 +39,12 @@ psus:
     release_wait_ms: 50
 
 game:
-  balls_per_game: 2
+  balls_per_game: 3
   max_players: 4
+
+
+machine:
+  balls_installed: 2
 
 #added from example code on mpf
 #event_player:
@@ -71,7 +75,7 @@ game:
   
 modes:
   - base
-#  - mo de2
+#  - mode2
   - attract
   - skillshot
   - top_lanes
@@ -82,14 +86,15 @@ modes:
   - upsidedown
 
 config:
+  - config_coils.yaml
+  - config_events.yaml
+  - config_keyboard.yaml
   - config_lights.yaml  
+  - config_shots.yaml
   - config_sound.yaml
   - config_switches.yaml
-  - config_keyboard.yaml
-  - config_coils.yaml
   - config_variables.yaml
-  - config_shots.yaml
-  - config_events.yaml
+  - config_videos.yaml
      
      
      
@@ -122,6 +127,10 @@ ball_devices:
     #  tags: drain, home, trough
     #  eject_targets: bd_plunger_lane    
     
+  bd_multiball_virtual_lock:
+    eject_coil: c_trough_upkicker
+    ball_switches: s_lr_standup
+
 playfields:
   playfield:
     default_source_device: bd_plunger_lane
@@ -131,22 +140,9 @@ playfields:
     ball_search_wait_after_iteration: 10s
     ball_search_interval: 250ms    
 
-player_vars:
-  current_mode:
-    initial_value: Trees Attack
-    value_type: str
-  bumper_hits:
-    initial_value: 0
-    value_type: int
-  super_bonus_multipler:
-    initial_value: 1.25
-    value_type: float
-    
-
 flippers:
   left_flipper:
     main_coil: c_flipper_left
-    #hold_coil: c_flipper_left_hold
     activation_switch: s_flipper_left  
     #enable_events: machine_reset_phase_3, ball_starting, cmode_game_started, game_start, ball_started, mode_base_started, flipper_on 
     #disable_events: ball_will_end, flipper_off
@@ -155,7 +151,6 @@ flippers:
     disable_events: ball_will_end, service_mode_entered, disableAutofire    
   right_flipper:
     main_coil: c_flipper_right
-    #hold_coil: c_flipper_right_hold
     activation_switch: s_flipper_right
     #enable_events: machine_reset_phase_3, ball_starting, cmode_game_started, game_start, ball_started, mode_base_started, flipper_on 
     #disable_events: ball_will_end, flipper_off
@@ -164,17 +159,13 @@ flippers:
     disable_events: ball_will_end, service_mode_entered, disableAutofire  
   upper_right_flipper:
     main_coil: c_flipper_upper_right
-    #hold_coil: c_flipper_right_hold
     activation_switch: s_flipper_right
     #enable_events: machine_reset_phase_3, ball_starting, cmode_game_started, game_start, ball_started, mode_base_started, flipper_on 
     #disable_events: ball_will_end, flipper_off
-    #label: Upper Right Flipper
     enable_events: ball_started, enableAutofire
     disable_events: ball_will_end, service_mode_entered, disableAutofire  
   
     
-machine:
-  balls_installed: 2
 
 
 
@@ -400,11 +391,4 @@ sound_player:
     music_bg1:
       action: stop  
       
-      
-      
-videos:
-  test_video:
-    width: 1280
-    height: 700
-    file: PhoenixCryLargecreen.mp4
-    
+ 

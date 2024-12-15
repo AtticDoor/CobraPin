@@ -3,7 +3,7 @@
 #  l_vuk_power:
 #    initial_value: 10
 #    value_type: int
-    
+ 
 player_vars:
   l_vuk_power:
     initial_value: 10

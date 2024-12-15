@@ -10,7 +10,7 @@
     awesome_slide:
       widgets:
       - type: text
-        text: YOU ARE AWESOME
+        text: ATTRACT MODE
         font_size: 50
       transition:
         type: push
