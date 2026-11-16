@@ -16,7 +16,6 @@ timers:
       - action: start
         event: balldevice_bd_plunger_lane_ball_eject_success  
 
-        
 event_player:
   timer_skillshot_timer_complete:
     - skill_failed
@@ -24,7 +23,7 @@ event_player:
 
   s_singleshot_active:
     - skill_success
-    - end_skillshot #|3s
+    - end_skillshot
 
 variable_player:
   skill_success:
@@ -33,20 +32,8 @@ variable_player:
     skillshot_timer_variable_times_100:
       int: device.timers.skillshot_timer.ticks 
       action: set
-      
-      
-slides:
-  show_timer:
-    widgets:
-      - type: Text
-        font_size: 100
-        text: (player|skillshot_timer_variable_times_100)
-        color: ff000044
 
-slide_player:
-  #mode_skillshot_started:
-  timer_skillshot_timer_started: show_timer
-
+# slides and slide_player removed for MPF 0.81 + VPE Unity.
 
 show_player:
   mode_skillshot_started:
@@ -67,4 +54,3 @@ show_player:
       show_tokens:
         led: 0_led_skillshot   
         color: yellow 
-  
