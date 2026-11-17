@@ -28,7 +28,7 @@ modes:
 config:
   - config_coils.yaml
   - config_events.yaml
-  - config_keyboard.yaml
+  # - config_keyboard.yaml  # removed: deprecated in MPF 0.81 (use gmc.cfg instead)
   - config_lights.yaml  
   - config_shots.yaml
   - config_switches.yaml
