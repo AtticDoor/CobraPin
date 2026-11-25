@@ -2,6 +2,9 @@
   "dependencies": {
     "com.unity.ide.rider": "3.1.0",
     "com.unity.ide.visualstudio": "2.0.26",
+    "org.visualpinball.engine.missionpinball": "file:C:/Users/R67en/Downloads/VisualPinball.Engine.Mpf-master/VisualPinball.Engine.Mpf-master",
+    "org.visualpinball.engine.unity": "0.0.1-preview.260",
+    "org.visualpinball.engine.unity.hdrp": "0.0.1-preview.332",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
@@ -38,5 +41,15 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "Visual Pinball Engine",
+      "url": "https://registry.visualpinball.org",
+      "scopes": [
+        "org.visualpinball",
+        "com.bartofzo"
+      ]
+    }
+  ]
 }

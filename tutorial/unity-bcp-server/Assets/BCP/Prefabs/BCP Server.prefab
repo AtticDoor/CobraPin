@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1010145467055020689}
-  - component: {fileID: 3848200001055886468}
-  - component: {fileID: 1097570841587696697}
-  - component: {fileID: 696872919672818599}
+  - component: {fileID: 7295703214353429600}
+  - component: {fileID: 5277907267344198604}
+  - component: {fileID: 3097731095510646287}
   m_Layer: 0
   m_Name: BCP Server
   m_TagString: Untagged
@@ -26,14 +26,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6504608779248296641}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3848200001055886468
+--- !u!114 &7295703214353429600
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,10 +43,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 6504608779248296641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cc22ed1b543ac94f8c4217acfe5f8aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 25663409565c528499bb8597c5212b1f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  listenerPort: 9001
+  m_EditorClassIdentifier: Assembly-CSharp::BcpLogger
+  LogFile: log.txt
+  Enabled: 1
+  EchoToConsole: 1
+  AddTimeStamp: 1
+--- !u!114 &5277907267344198604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6504608779248296641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0c37e26e0d66a4b89b97bfedfc4d91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BcpMessageManager
+  listenerPort: 5050
   messageQueueSize: 100
   machineVariables: 1
   playerVariables: 1
@@ -57,7 +74,7 @@ MonoBehaviour:
   timers: 
   additionalTriggers: 
   ignoreUnknownMessages: 1
---- !u!114 &1097570841587696697
+--- !u!114 &3097731095510646287
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66,22 +83,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6504608779248296641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 250d71e3f35b84a468edcd14c2f77b01, type: 3}
+  m_Script: {fileID: 11500000, guid: 596928991a0407a4dab4c5bbca363129, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &696872919672818599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6504608779248296641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 601dabf38414842449bbfcaeed426c87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LogFile: log.txt
-  Enabled: 1
-  EchoToConsole: 1
-  AddTimeStamp: 1
+  m_EditorClassIdentifier: Assembly-CSharp::BcpServer

@@ -13,7 +13,7 @@ bcp:
       host: localhost
       port: 5050
       type: mpf.core.bcp.bcp_socket_client.BCPClientSocket
-      required: true
+      required: false
       exit_on_close: true
 
 

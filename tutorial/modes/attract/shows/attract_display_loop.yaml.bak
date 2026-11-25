@@ -2,8 +2,9 @@
 - duration: 3s
   slides:
     my_slide:
-      - type: video
-        video: test_video
+      type: video
+      video: test_video
+
 
 - duration: 3s
   slides:

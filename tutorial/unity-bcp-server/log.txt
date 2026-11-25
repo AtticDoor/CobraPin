@@ -1,0 +1,713 @@
+[16:41:52] BcpServer: Close start
+[16:41:52] BcpServer: Close finished
+[16:41:52] Setting up message handler callback functions
+[16:41:52] Setting up BCP server (listening on port 5050)
+[16:41:52] BcpServer: Initializing
+[16:41:52] BcpServer: Unity Media Controller 0.53.0
+[16:41:52] BcpServer: BCP Specification Version 1.1
+[16:41:52] BcpServer: Establishing local endpoint for the socket (0.0.0.0:5050)
+[16:41:52] BcpServer: Waiting for a connection...
+[16:41:52] BcpServer: ListenForConnection thread start
+[16:41:52] BcpServer: Waiting for client to connect...
+[16:42:23] BcpServer: HandleClientCommunications thread start
+[16:42:23] BcpServer: >>>>>>>>>>>>>> Received raw message: hello?version=1.1&controller_name=Mission%20Pinball%20Framework&controller_version=0.81.0&gmc_version=1.0.0
+
+[16:42:23] BcpServer: >>>>>>>>>>>>>> Received "hello" message: hello?version=1.1&controller_name=Mission%20Pinball%20Framework&controller_version=0.81.0&gmc_version=1.0.0
+[16:42:23] BcpServer: >>>>>>>>>>>>>> Received raw message: reset
+
+[16:42:23] BcpServer: >>>>>>>>>>>>>> Received "reset" message: reset
+[16:43:21] Processing "hello" message
+[16:43:21] BcpServer: <<<<<<<<<<<<<< Sending "hello" message: hello?version=1.1&controller_name=Unity+Media+Controller&controller_version=0.53.0
+
+[16:43:21] BcpServer: <<<<<<<<<<<<<< Sending "monitor_start" message: monitor_start?category=machine_vars
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=credits_string&value=FREE%20PLAY
+
+[16:43:21] BcpServer: <<<<<<<<<<<<<< Sending "monitor_start" message: monitor_start?category=player_vars
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=credits_string&value=FREE%20PLAY
+[16:43:21] BcpServer: <<<<<<<<<<<<<< Sending "monitor_start" message: monitor_start?category=switches
+
+[16:43:21] BcpServer: <<<<<<<<<<<<<< Sending "monitor_start" message: monitor_start?category=modes
+
+[16:43:21] BcpServer: <<<<<<<<<<<<<< Sending "monitor_start" message: monitor_start?category=core_events
+
+[16:43:21] BcpServer: <<<<<<<<<<<<<< Sending "register_trigger" message: register_trigger?event=high_score_enter_initials
+
+[16:43:21] BcpServer: <<<<<<<<<<<<<< Sending "register_trigger" message: register_trigger?event=high_score_award_display
+
+[16:43:21] Processing "reset" message
+[16:43:21] BcpServer: <<<<<<<<<<<<<< Sending "reset_complete" message: reset_complete
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=master_volume&value=float:0.5
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=master_volume&value=float:0.5
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=mpf_version&value=Mission%20Pinball%20Framework%20v0.81.0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=mpf_version&value=Mission%20Pinball%20Framework%20v0.81.0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=mpf_extended_version&value=Mission%20Pinball%20Framework%20v0.81.0%2C%20Config%20version%3A6%2C%20Show%20version%3A%206%2C%20BCP%20version%3A1.1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=mpf_extended_version&value=Mission%20Pinball%20Framework%20v0.81.0%2C%20Config%20version%3A6%2C%20Show%20version%3A%206%2C%20BCP%20version%3A1.1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=python_version&value=3.14.10
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=python_version&value=3.14.10
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=platform&value=Windows-11-10.0.22621-SP0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=platform&value=Windows-11-10.0.22621-SP0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=platform_system&value=Windows
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=platform_system&value=Windows
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=platform_release&value=11
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=platform_release&value=11
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=platform_version&value=10.0.22621
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=platform_version&value=10.0.22621
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=platform_machine&value=AMD64
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=platform_machine&value=AMD64
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=log_file_path&value=C%3A%5CCobraPin%5Ctutorial%5Clogs%5C2026-11-21-16-42-20-mpf-CrowPC.log
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=log_file_path&value=C%3A%5CCobraPin%5Ctutorial%5Clogs%5C2026-11-21-16-42-20-mpf-CrowPC.log
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_events_game_ended&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_events_game_ended&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_events_game_started&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_events_game_started&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_016&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_016&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_017&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_017&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_018&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_018&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_08&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_08&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_09&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_09&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_1-0-38&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_1-0-38&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_1-0-39&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_1-0-39&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_2bank_bottom&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_2bank_bottom&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_3bank_left&value=int:1
+
+                                                  [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_3bank_left&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_3bank_mid&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_3bank_mid&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_3bank_right&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_3bank_right&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_46&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_46&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_47&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_47&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_4th_coin&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_4th_coin&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_53&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_53&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_543bank_mid&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_543bank_mid&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_553bank_bot&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_553bank_bot&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_ball_launch_button_JUNK&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_ball_launch_button_JUNK&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_center_coin&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_center_coin&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_center_ramp_exit&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_center_ramp_exit&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_center_ramp_standup&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_center_ramp_standup&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_extra_ball&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_extra_ball&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_junk3&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_junk3&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_junk4&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_junk4&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_junk5&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_junk5&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_junk_1&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_junk_1&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_junk_2&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_junk_2&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_left_coin&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_left_coin&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_left_inlane&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_left_inlane&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_left_orbit_rollover&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_left_orbit_rollover&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_left_outlane&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_left_outlane&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_left_ramp_enter&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_left_ramp_enter&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_left_ramp_exit&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_left_ramp_exit&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_left_ramp_standup_left&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_left_ramp_standup_left&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_left_ramp_standup_right&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_left_ramp_standup_right&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_left_return_lane&value=int:1
+
+                                                  [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_left_return_lane&value=int:1
+[16:43:21] Processing "machine_variable" message
+                                                                                                                                        [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_left_slingshot&value=int:1
+[16:43:21] Processing "machine_variable" message
+                                                                                                                                    [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_ll_standup&value=int:1
+[16:43:21] Processing "machine_variable" messagew message: machine_variable?name=audits_missing_switches_s_lower_super_vuk&value=int:1
+
+e=int:1
+:1
+
+int:1
+-21-16-42-20-mpf-CrowPC.lo
+e=int:1
+:1
+
+ersion%3A%206%2C%20BCP%20version%3A1.1
+                                                                                                                                    [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_lower_super_vuk&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_lr_standup&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_lr_standup&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_orbit_center&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_orbit_center&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_orbit_left&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_orbit_left&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_plumb_bob_tilt&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_plumb_bob_tilt&value=int:1
+
+ersion%3A%206%2C%20BCP%20version%3A1.1
+        [16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_pop_left&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_pop_left&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_pop_right&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_pop_right&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_right_coin_slot&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_right_coin_slot&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_right_outlane&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_right_outlane&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_right_ramp_enter&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_right_ramp_enter&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_right_ramp_exit&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_right_ramp_exit&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_right_ramp_standup_left&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_right_ramp_standup_left&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_right_ramp_standup_right&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_right_ramp_standup_right&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+                                                                                                                                    [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_rl_standup&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_rr_standup&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_rr_standup&value=int:1
+[16:43:21] Processing "machine_variable" message
+                                                                                                                                  [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_slamtilt&value=int:1
+[16:43:21] Processing "machine_variable" messagew message: machine_variable?name=audits_missing_switches_s_spinner&value=int:1
+ilt&value=int:1
+
+&value=int:1
+_switches_s_plu
+
+t&value=int:1
+
+1
+
+
+ersion%3A%206%2C%20BCP%20version%3A1.1
+                                                                                                                  [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_spinner&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_start_btn_JUNK&value=int:1
+
+                                                  [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_start_btn_JUNK&value=int:1
+[16:43:21] Processing "machine_variable" message
+                                                                                                                                           [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_top_rollover_left&value=int:1
+[16:43:21] Processing "machine_variable" messagew message: machine_variable?name=audits_missing_switches_s_top_rollover_mid&value=int:1
+eft&value=int:1
+int:1
+_switches_s_plu
+
+ob_ti
+
+t&value=int:1
+rsion%3A%206%2C%20BCP%20version%3A1.1
+                                                                                                                                    [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_top_rollover_mid&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_top_rollover_right&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_top_rollover_right&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_under_playfield_ramp_enter&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_under_playfield_ramp_enter&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_upper_ball_launch&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_upper_ball_launch&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_upper_right_shark_rollover&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_upper_right_shark_rollover&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_upper_vuk&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_upper_vuk&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_missing_switches_s_vuk_left&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_missing_switches_s_vuk_left&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?json={"name": "audits_player_score", "value": {"average": 0, "top": [], "total": 0}}
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?json={"name": "audits_player_score", "value": {"average": 0, "top": [], "total": 0}}
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_016&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_016&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_017&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_017&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_018&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_018&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_08&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_08&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_09&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_09&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_1-0-38&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_1-0-38&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_1-0-39&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_1-0-39&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_2bank_bottom&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_2bank_bottom&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_3bank_left&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_3bank_left&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_3bank_mid&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_3bank_mid&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_3bank_right&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_3bank_right&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_46&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_46&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_47&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_47&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_4th_coin&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_4th_coin&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_53&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_53&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_543bank_mid&value=int:0
+
+                                                  [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_543bank_mid&value=int:0
+[16:43:21] Processing "machine_variable" message
+m
+6:43:21] BcpServer: >>>>>>>>>>>>>> Received "machi[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_553bank_bot&value=int:0
+                                                  [16:43:21] BcpServer: >>>>>>>>>>>>>> Received ra message: machine_variable?name=audits_switches_s_ball_launch_button&value=int:1
+e=int:0
+
+verage": 0, "top": [], "total": 0}}
+
+
+essage
+&value=int:1
+rsion%3A%206%2C%20BCP%20version%3A1.1
+                                                                                                                        [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_ball_launch_button&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_ball_launch_button_JUNK&value=int:0
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_ball_launch_button_JUNK&value=int:0
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_center_coin&value=int:0
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_center_coin&value=int:0
+                                                  [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_center_ramp_exit&value=int:0
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_center_ramp_exit&value=int:0
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_center_ramp_standup&value=int:0
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_center_ramp_standup&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_extra_ball&value=int:0
+
+p
+standup&value=int:0
+aw message: machine_variable?name=audits_switches_s_center_ramp_standup&value=int:0
+
+n%3A1.1
+        [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_extra_ball&value=int:0
+[16:43:21] Processing "machine_variable" message
+.1
+                                                                                                                          [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_flipper_left&value=int:1
+[16:43:21] Processing "machine_variable" message
+
+6:43:21] BcpServer: >>>>>>>>>>>>>> Received "machi[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_flipper_right&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_junk3&value=int:0
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_junk3&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_junk4&value=int:0
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_junk4&value=int:0
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_junk5&value=int:0
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_junk5&value=int:0
+                                                  [16:43:21] Processing "machine_variable" message
+                                                                                                                        [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_junk_1&value=int:0
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+m
+6:43:21] BcpServer: >>>>>>>>>>>>>> Received "machi[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_junk_2&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_left_coin&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_left_coin&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_left_inlane&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_left_inlane&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_left_orbit_rollover&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_left_orbit_rollover&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_left_outlane&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_left_outlane&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_left_ramp_enter&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_left_ramp_enter&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_left_ramp_exit&value=int:0
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_left_ramp_exit&value=int:0
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_left_ramp_standup_left&value=int:0
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_left_ramp_standup_left&value=int:0
+[16:43:21] Processing "machine_variable" message
+enter_ramp_standup&value=int:0
+
+n%3A1.1
+                                                                                                            [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_left_ramp_standup_right&value=int:0
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_left_ramp_standup_right&value=int:0
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_left_return_lane&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_left_return_lane&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_left_slingshot&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_left_slingshot&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_ll_standup&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_ll_standup&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_lower_super_vuk&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_lower_super_vuk&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_lr_standup&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_lr_standup&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_orbit_center&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_orbit_center&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_orbit_left&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_orbit_left&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_plumb_bob_tilt&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_plumb_bob_tilt&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_pop_bottom&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_pop_bottom&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_pop_left&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_pop_left&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_pop_right&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_pop_right&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_right_coin_slot&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_right_coin_slot&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_right_inlane&value=int:2
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_right_inlane&value=int:2
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_right_outlane&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_right_outlane&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_right_ramp_enter&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_right_ramp_enter&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_right_ramp_exit&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_right_ramp_exit&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_right_ramp_standup_left&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_right_ramp_standup_left&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_right_ramp_standup_right&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_right_ramp_standup_right&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_right_slingshot&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_right_slingshot&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_rl_standup&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_rl_standup&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_rr_standup&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_rr_standup&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_shark_scoop&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_shark_scoop&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_shooter_lane&value=int:1
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_shooter_lane&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_slamtilt&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_spinner&value=int:0
+
+t&value=int:0
+                                                  [16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_spinner&value=int:0
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_spinner&value=int:0
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_start_btn&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+                                                                                                                                         [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_start_btn_JUNK&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_start_btn_JUNK&value=int:0
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_top_rollover_left&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_top_rollover_left&value=int:0
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_top_rollover_mid&value=int:0
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_top_rollover_mid&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_top_rollover_right&value=int:0
+
+                                                  [16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_top_rollover_right&value=int:0
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_trough1&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_trough1&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_trough2&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_trough2&value=int:1
+[16:43:21] Processing "machine_variable" message
+[16:43:21] Processing "machine_variable" message
+                                                                                                                         [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_trough3&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_trough4&value=int:1
+
+                                                  [16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_trough4&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_trough5&value=int:1
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_trough5&value=int:1
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_under_playfield_ramp_enter&value=int:0
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_under_playfield_ramp_enter&value=int:0
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_upper_ball_launch&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_upper_ball_launch&value=int:0
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_upper_right_shark_rollover&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_upper_right_shark_rollover&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_upper_vuk&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_upper_vuk&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: machine_variable?name=audits_switches_s_vuk_left&value=int:0
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "machine_variable" message: machine_variable?name=audits_switches_s_vuk_left&value=int:0
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: settings?json={"settings": [["brightness", "Brightness", 100, "brightness", 1.0, {"0.25": "25%", "0.5": "50%", "0.75": "75%", "1.0": "100% (default)"}, "standard"], ["flipper_power", "Flipper power", 1000, "flipper_power", 1.0, {"0.8": "Weak", "1.0": "Normal (default)", "1.2": "Strong"}, "standard"]]}
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "settings" message: settings?json={"settings": [["brightness", "Brightness", 100, "brightness", 1.0, {"0.25": "25%", "0.5": "50%", "0.75": "75%", "1.0": "100% (default)"}, "standard"], ["flipper_power", "Flipper power", 1000, "flipper_power", 1.0, {"0.8": "Weak", "1.0": "Normal (default)", "1.2": "Strong"}, "standard"]]}
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: settings?json={"settings": []}
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "settings" message: settings?json={"settings": []}
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: settings?json={"settings": []}
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "settings" message: settings?json={"settings": []}
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: settings?json={"settings": []}
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "settings" message: settings?json={"settings": []}
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: settings?json={"settings": []}
+
+[16:43:21] Processing "machine_variable" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "settings" message: settings?json={"settings": []}
+[16:43:21] Processing "settings" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: mode_list?json={"running_modes": []}
+
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "mode_list" message: mode_list?json={"running_modes": []}
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: mode_start?name=attract&priority=int:10
+
+[16:43:21] Processing "settings" message
+                                                                                                             [16:43:21] Processing "settings" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received raw message: mode_list?json={"running_modes": [["attract", 10]]}
+
+[16:43:21] Processing "settings" message
+[16:43:21] Processing "settings" message
+[16:43:21] Processing "mode_list" message
+[16:43:21] BcpServer: >>>>>>>>>>>>>> Received "mode_list" message: mode_list?json={"running_modes": [["attract", 10]]}
+                                                                                                           [16:43:21] Processing "mode_start" message
+[16:43:21] Processing "mode_list" message
+[16:43:21] Unknown BCP message 'mode_list' (no message handler set): mode_list?json={"running_modes": [["attract", 10]]}
+[16:47:55] BcpServer: Editor stopping - shutting down BCP Server
+[16:47:55] BcpServer: Close start
+[16:47:55] BcpServer: <<<<<<<<<<<<<< Sending "goodbye" message: goodbye
+
+[16:47:55] BcpServer: HandleClientCommunications thread finish
+[16:47:55] BcpServer: Closing TCP/Socket client
+[16:47:55] BcpServer: Close finished

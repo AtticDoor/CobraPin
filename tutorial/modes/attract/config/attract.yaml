@@ -10,7 +10,7 @@ show_player:
         color1: red
         color2: blue
         
-    attract_display_loop:
-      speed: 1
-    attract_light_show:
-      speed: 4
+#    attract_display_loop:
+#      speed: 1
+#    attract_light_show:
+#      speed: 4
